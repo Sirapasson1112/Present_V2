@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>นำเสนอโครงงานสหกิจ (ฉบับสั้น) · PM Web Application · สำหรับอาจารย์มานิเทศ</title>
+<title>นำเสนอความคืบหน้าโครงงานสหกิจ · PM Web Application · อาจารย์มานิเทศ</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700;800&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -713,16 +713,25 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       <div class="float f3"><div class="l">คะแนน SUS</div><div class="v" style="color:var(--orange-d)">80.25 ⭐</div></div>
     </div>
   </section>
-
-
-  <!-- ================= AGENDA ================= -->
-  <section class="slide" id="sAg" data-title="หัวข้อการนำเสนอ">
-    <span class="kicker rv"><i></i>Agenda</span>
-    <h2 class="t rv" style="--d:1">หัวข้อการนำเสนอ</h2>
-    <p class="sub rv" style="--d:2">คลิกที่บทเพื่อข้ามไปยังส่วนนั้นได้ทันที</p>
-    <div class="ag" id="ag"></div>
+  <section class="slide" id="sProg" data-src="หัวข้อ 1.2, 4.1–4.13, 5.1–5.3 · ตารางที่ 5.1–5.2" data-title="สถานะความคืบหน้าโครงงาน">
+    <span class="kicker rv"><i></i>ความคืบหน้า · สถานะวัตถุประสงค์และงานที่เหลือ</span>
+    <h2 class="t rv" style="--d:1">ทำเสร็จครบ <span class="hl">4 วัตถุประสงค์</span> เหลือปิดงานก่อนสอบ</h2>
+    <div class="two">
+      <div class="card lst rv" style="--d:2"><h5>✅ สถานะวัตถุประสงค์</h5>
+        <div class="li"><div class="ic" style="background:var(--teal-s)">📱</div><div><b>1. พัฒนาเว็บแอปบันทึกผล PM</b> — เสร็จแล้ว 9 หน้าจอ ใช้ได้ทั้งคอมพิวเตอร์และมือถือ</div></div>
+        <div class="li"><div class="ic" style="background:var(--teal-s)">🔍</div><div><b>2. วิเคราะห์ความต้องการผู้ใช้จริง</b> — เสร็จแล้ว ช่องว่าง 3 ด้านและข้อเสนอแนะจากช่าง</div></div>
+        <div class="li"><div class="ic" style="background:var(--teal-s)">📊</div><div><b>3. Dashboard ตัวชี้วัด 4 ตัว</b> — เสร็จแล้ว สำหรับประชุมวางแผนประจำสัปดาห์</div></div>
+        <div class="li"><div class="ic" style="background:var(--yellow-s)">🧪</div><div><b>4. ประเมินผลก่อน-หลัง</b> — ประเมินด้านเวลา คุณภาพข้อมูล และการยอมรับแล้ว (ข้อมูลจำลอง) ยังติดตาม MTTR และ Failure Frequency ต่อ</div></div>
+      </div>
+      <div class="card lst rv" style="--d:3"><h5>🗂 งานที่เหลือก่อนสอบ</h5>
+        <div class="li"><div class="ic" style="background:var(--blue-s)">🏷</div><div>ปรับชื่อโครงงานและตรวจความสอดคล้องของชื่อทั้งเล่ม</div></div>
+        <div class="li"><div class="ic" style="background:var(--blue-s)">🧾</div><div>ตรวจตัวเลขจำลองให้มีคำกำกับ “ข้อมูลจำลอง” ทุกจุด</div></div>
+        <div class="li"><div class="ic" style="background:var(--blue-s)">📚</div><div>ตรวจเอกสารอ้างอิง 44 รายการและการอ้างในเนื้อหาให้ครบ</div></div>
+        <div class="li"><div class="ic" style="background:var(--blue-s)">🌐</div><div>ทดสอบเปิดเว็บจริง pmweb.online ก่อนวันนำเสนอ</div></div>
+        <div class="li"><div class="ic" style="background:var(--blue-s)">🎤</div><div>ซ้อมนำเสนอตามโน้ตผู้นำเสนอ และรับข้อเสนอแนะจากอาจารย์มานิเทศ</div></div>
+      </div>
+    </div>
   </section>
-  <!-- ================= 2 PROBLEM FLOW ================= -->
   <section class="slide" id="s2" data-src="หัวข้อ 1.1 · รูปที่ 3.3 · ตารางที่ 4.7" data-title="ปัญหา: บันทึก 2 รอบ">
     <span class="kicker rv"><i></i>บทที่ 1 · ความเป็นมาของปัญหา</span>
     <h2 class="t rv" style="--d:1">งานเดียว… แต่ช่างต้อง<span class="hl">บันทึก 2 รอบ</span></h2>
@@ -741,32 +750,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
     </div>
     <div class="hint rv" style="--d:7;margin-top:10px">* ตัวเลขเป็นข้อมูลจำลอง เนื่องจากหน่วยงานไม่อนุญาตให้เผยแพร่ข้อมูลจริง · ลองสลับปุ่มด้านบนขวา</div>
   </section>
-
-  <!-- ================= 3 GAPS ================= -->
-  <section class="slide" id="s3" data-src="หัวข้อ 3.1 · รูปที่ 3.2 · ตารางที่ 3.1 · [1] [34]" data-title="ช่องว่าง 3 ด้าน">
-    <span class="kicker blue rv"><i></i>บทที่ 3 · วิเคราะห์ช่องว่างเทียบ World Class Maintenance</span>
-    <h2 class="t rv" style="--d:1">ช่องว่างการดำเนินงาน <span class="hl2">3 ด้าน</span></h2>
-    <p class="sub rv" style="--d:2">คลิกการ์ดเพื่อพลิกดู “แนวทางของโครงงาน” · <a href="#" onclick="openLB(IMG.fish,'รูปที่ 3.2 แผนผังก้างปลาแสดงสาเหตุของปัญหาข้อมูลงาน PM');return false" style="color:var(--blue);font-weight:600">🐟 ดูแผนผังก้างปลา</a></p>
-    <div class="flips">
-      <div class="flip rv" style="--d:3" onclick="this.classList.toggle('on')"><div class="in">
-        <div class="fc"><div class="em" style="background:var(--blue-s)">🖥️</div><h4>โครงสร้างพื้นฐาน<br>และเทคโนโลยี</h4><div class="en">Infrastructure &amp; Technology Gap [34]</div>
-          <ul><li>ระบบทำงานแยกส่วน (Data Silo)</li><li>ต้อง Export Excel รายครั้งเพื่อวิเคราะห์</li><li>ขาดการประมวลผล KPI อัตโนมัติ</li></ul><div class="tap">👆 คลิกเพื่อพลิก</div></div>
-        <div class="bc" style="background:linear-gradient(150deg,var(--blue),var(--g2))"><div class="lab">แนวทางของโครงงาน</div><h4>เครื่องมือเสริม<br>ไม่แตะระบบเดิม</h4><ul><li>ไม่แก้ไข CMMS เดิม (ข้อจำกัดองค์กร)</li><li>ส่งออกไฟล์ Excel ตามรูปแบบนำเข้า CMMS</li><li>Dashboard คำนวณ KPI ให้อัตโนมัติ</li></ul></div>
-      </div></div>
-      <div class="flip rv" style="--d:4" onclick="this.classList.toggle('on')"><div class="in">
-        <div class="fc"><div class="em" style="background:var(--orange-s)">📋</div><h4>การบริหารจัดการ<br>ข้อมูล</h4><div class="en">Data Management Gap</div>
-          <ul><li>ข้อมูลไม่สมบูรณ์ / ไม่ถูกต้อง</li><li>เวลาปิดงานไม่ตรงความจริง</li><li>ระบุสาเหตุการชำรุดคลุมเครือ</li></ul><div class="tap">👆 คลิกเพื่อพลิก</div></div>
-        <div class="bc" style="background:linear-gradient(150deg,var(--pink),var(--pink))"><div class="lab">แนวทางของโครงงาน</div><h4>บันทึกที่ต้นทาง<br>เพียงครั้งเดียว</h4><ul><li>ใบตรวจดิจิทัล 11 แบบผูกกับใบงาน</li><li>เติมรหัสอุปกรณ์/สถานที่ให้อัตโนมัติ</li><li>ตรวจความครบถ้วนขณะกรอก</li></ul></div>
-      </div></div>
-      <div class="flip rv" style="--d:5" onclick="this.classList.toggle('on')"><div class="in">
-        <div class="fc"><div class="em" style="background:var(--teal-s)">👷</div><h4>บุคลากรและ<br>วัฒนธรรมองค์กร</h4><div class="en">People &amp; Culture Gap [1] [10]</div>
-          <ul><li>มองว่าการกรอกข้อมูลเป็นภาระส่วนเกิน</li><li>ทักษะดิจิทัลแต่ละคนไม่เท่ากัน</li><li>ช่างไม่เห็นผลงาน/KPI ของตนเอง</li></ul><div class="tap">👆 คลิกเพื่อพลิก</div></div>
-        <div class="bc" style="background:linear-gradient(150deg,var(--teal),var(--teal))"><div class="lab">แนวทางของโครงงาน</div><h4>ใช้ง่าย + เห็นผล<br>ของตัวเอง</h4><ul><li>UI ออกแบบตามงานหน้างานจริง (TAM)</li><li>Dashboard เพื่อ Self-Monitoring</li><li>ใช้ข้อมูลเพื่อพัฒนา ไม่ใช่เพื่อลงโทษ</li></ul></div>
-      </div></div>
-    </div>
-  </section>
-
-  <!-- ================= 4 OBJECTIVES ================= -->
   <section class="slide" id="s4" data-src="หัวข้อ 1.2" data-title="วัตถุประสงค์ & ขอบเขต">
     <span class="kicker rv"><i></i>บทที่ 1 · วัตถุประสงค์และขอบเขต</span>
     <h2 class="t rv" style="--d:1">วัตถุประสงค์ <span class="hl">4 ข้อ</span> และเป้าหมายที่วัดได้</h2>
@@ -789,9 +772,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       </div>
     </div>
   </section>
-
-
-  <!-- ================= SCOPE & BENEFITS ================= -->
   <section class="slide" id="sSc" data-src="หัวข้อ 1.3–1.4 · [35] [36]" data-title="ขอบเขต & ประโยชน์ที่คาดว่าจะได้รับ">
     <span class="kicker rv"><i></i>บทที่ 1 · หัวข้อ 1.3–1.4</span>
     <h2 class="t rv" style="--d:1">ขอบเขตการศึกษา & <span class="hl">ประโยชน์ที่คาดว่าจะได้รับ</span></h2>
@@ -811,53 +791,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       </div>
     </div>
   </section>
-  <!-- ================= 5 THEORY HUB ================= -->
-  <section class="slide" id="s5" data-src="บทที่ 2 · [1] [2] [3] [8] [9] [10] [14] [15] [16] [18]" data-title="ทฤษฎีที่เกี่ยวข้อง">
-    <span class="kicker violet rv"><i></i>บทที่ 2 · ทฤษฎีและงานวิจัยที่เกี่ยวข้อง</span>
-    <h2 class="t rv" style="--d:1">กรอบแนวคิดที่ใช้ออกแบบ <span style="font-size:20px;color:var(--muted);font-weight:500">— คลิกแต่ละวงเพื่อดูรายละเอียด</span></h2>
-    <div class="hubwrap">
-      <div class="hub rv pop" style="--d:2" id="hub">
-        <svg class="lines" width="600" height="500" id="hubLines"></svg>
-        <div class="core">เว็บแอป<br>PM ↔ CMMS</div>
-      </div>
-      <div class="card hdetail rv" style="--d:3" id="hdetail"></div>
-    </div>
-  </section>
-
-
-  <!-- ================= PM TYPES & BENCHMARKS ================= -->
-  <section class="slide" id="sPmt" data-src="ตารางที่ 2.1–2.2 · รูปที่ 2.1 · [2] [3] [4] [5] [8] [16]" data-title="รูปแบบ PM & เกณฑ์ระดับโลก">
-    <span class="kicker violet rv"><i></i>บทที่ 2 · หัวข้อ 2.1–2.2</span>
-    <h2 class="t rv" style="--d:1">รูปแบบ PM และ <span class="hl">เกณฑ์มาตรฐานระดับโลก</span></h2>
-    <div class="pmt">
-      <div class="card pmbox rv" style="--d:2">
-        <div class="seg" id="pmSeg"><button class="on" data-i="0">ตามรอบเวลา</button><button data-i="1">ตามการใช้งาน</button><button data-i="2">ตามสภาพ</button><button data-i="3">เชิงพยากรณ์</button></div>
-        <div id="pmBody" style="margin-top:14px"></div>
-        <button class="btn ghost" style="margin-top:14px;font-size:13px;padding:8px 14px" onclick="openLB(IMG.wcm,'รูปที่ 2.1 วิวัฒนาการแนวคิด World Class Maintenance')">🖼 วิวัฒนาการ WCM</button>
-      </div>
-      <div class="card bench rv" style="--d:3"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><b style="font:700 17px var(--hfont)">🌍 World Class Benchmarks <span class="hint">[3] [8] [16]</span></b><span class="hint">★ = สะท้อนอยู่ในตัวชี้วัดของโครงงาน</span></div><div id="bench"></div></div>
-    </div>
-  </section>
-
-  <!-- ================= RELATED RESEARCH ================= -->
-  <section class="slide" id="sRes" data-src="หัวข้อ 2.7 · [19]–[33]" data-title="งานวิจัยที่เกี่ยวข้อง 15 เรื่อง">
-    <span class="kicker violet rv"><i></i>บทที่ 2 · หัวข้อ 2.7 งานวิจัยที่เกี่ยวข้อง</span>
-    <div style="display:flex;justify-content:space-between;align-items:flex-end">
-      <h2 class="t rv" style="--d:1">งานวิจัยที่เกี่ยวข้อง <span class="hl">15 เรื่อง</span></h2>
-      <div class="seg rv" style="--d:2" id="resSeg"><button class="on" data-g="0">WCM / TPM (5)</button><button data-g="1">CMMS (5)</button><button data-g="2">การยอมรับเทคโนโลยี (3)</button><button data-g="3">SDGs (2)</button></div>
-    </div>
-    <div class="resg" id="resg"></div>
-    <div class="quote rv" style="--d:4;margin-top:14px">💡 ข้อสรุปร่วม: ความสำเร็จของ WCM หรือ CMMS <b>ไม่ได้อยู่ที่ตัวโปรแกรมเป็นหลัก แต่อยู่ที่คนและคุณภาพข้อมูล</b> — โครงงานจึงแก้ที่ “คน” และ “จุดบันทึกต้นทาง”</div>
-  </section>
-
-  <!-- ================= TOOL SELECTION ================= -->
-  <section class="slide" id="sTool" data-src="ตารางที่ 2.3 · [1] [2] [3] [9] [10] [13] [14] [15]" data-title="เหตุผลการเลือกเครื่องมือ">
-    <span class="kicker violet rv"><i></i>บทที่ 2 · ตารางที่ 2.3 การเชื่อมโยงทฤษฎีกับการเลือกเครื่องมือ</span>
-    <h2 class="t rv" style="--d:1">ทำไมถึงเลือก<span class="hl">เครื่องมือนี้</span> ไม่ใช่ทางเลือกอื่น?</h2>
-    <p class="sub rv" style="--d:2">คลิกแต่ละแถวเพื่อดูเหตุผล — ทุกเครื่องมือถูกเลือกเพราะเหมาะกับปัญหาและข้อจำกัดของหน่วยงาน</p>
-    <div class="tools rv" style="--d:3" id="tools"></div>
-  </section>
-  <!-- ================= 6 METHOD ================= -->
   <section class="slide" id="s6" data-src="บทที่ 3 · รูปที่ 3.1–3.2" data-title="วิธีการดำเนินงาน">
     <span class="kicker teal rv"><i></i>บทที่ 3 · วิธีการดำเนินงาน</span>
     <div style="display:flex;justify-content:space-between;align-items:flex-end">
@@ -867,18 +800,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
     <div class="steps rv" style="--d:2" id="steps"></div>
     <div class="stpd" id="stpd"></div>
   </section>
-
-
-  <!-- ================= DESIGN ================= -->
-  <section class="slide" id="sDes" data-src="หัวข้อ 3.2–3.4 · รูปที่ 3.3–3.6" data-title="การออกแบบระบบ">
-    <span class="kicker teal rv"><i></i>บทที่ 3 · หัวข้อ 3.2–3.4 ข้อมูล โครงสร้างระบบ และ UI/UX</span>
-    <div style="display:flex;justify-content:space-between;align-items:flex-end">
-      <h2 class="t rv" style="--d:1">ออกแบบจาก<span class="hl">วิธีทำงานจริง</span></h2>
-      <div class="seg rv" style="--d:2" id="desSeg"><button class="on" data-i="0">กระบวนการเดิม vs ใหม่</button><button data-i="1">ใบตรวจกระดาษเดิม</button><button data-i="2">Context Diagram</button><button data-i="3">ผังหน้าจอ</button></div>
-    </div>
-    <div class="des rv" style="--d:3"><div class="card txt" id="desTxt"></div><div class="card pic" id="desPic"></div></div>
-  </section>
-  <!-- ================= 7 ITERATIONS ================= -->
   <section class="slide" id="s7" data-src="หัวข้อ 3.5 · ตารางที่ 3.2" data-title="พัฒนาแบบเป็นรอบ 4 รอบ">
     <span class="kicker pink rv"><i></i>หัวข้อ 3.5 · Iterative Development</span>
     <h2 class="t rv" style="--d:1">ระบบไม่ได้เสร็จในครั้งเดียว — <span class="hl">ปรับปรุง 4 รอบ</span></h2>
@@ -886,23 +807,73 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
     <div class="rgrid" id="rgrid"></div>
     <div class="quote rv" style="--d:4">💡 ปัญหาส่วนใหญ่ไม่ได้มาจากความสามารถของโปรแกรม แต่มาจาก<b>ความไม่สอดคล้องระหว่างวิธีออกแบบกับวิธีทำงานจริงของช่าง</b></div>
   </section>
-
-  <!-- ================= 8 BASELINE ================= -->
-  <section class="slide" id="s8" data-src="หัวข้อ 4.1 · ตารางที่ 4.1 · ข้อมูลจำลอง" data-title="ข้อมูลฐานก่อนใช้ระบบ">
-    <span class="kicker rv"><i></i>หัวข้อ 4.1 · Baseline (ก.ย. 68 – ส.ค. 69)</span>
+  <section class="slide" id="s12" data-src="หัวข้อ 4.6 · ตารางที่ 4.7–4.8 · รูปที่ 4.12–4.13 · [37] [38] [40]" data-title="ผลก่อน-หลังใช้ระบบ">
+    <span class="kicker rv"><i></i>หัวข้อ 4.6 · ทดลองใช้จริง 4 สัปดาห์ · ช่าง 8 + หัวหน้างาน 2 (n = 10)</span>
     <span class="sim rv">ข้อมูลจำลอง</span>
-    <h2 class="t rv" style="--d:1">ก่อนใช้ระบบ: <span style="color:var(--red)">KPI ไม่ผ่านเป้าทั้ง 4 ตัว</span></h2>
-    <p class="sub rv" style="--d:2">ใบงาน PM 1,254 ใบ (หม้อแปลง 1,036 · LBS 218) กรอกข้อมูลบังคับครบเพียง 885 ใบ — ช่องที่ขาดบ่อยคือ สาเหตุการชำรุด เวลาปิดงาน และค่าที่วัดได้</p>
-    <div class="bgrid">
-      <div class="card bk rv" style="--d:3"><div class="ic">⏱️</div><div class="v"><span data-count="18.3" data-dec="1">0</span><small>นาที</small></div><div class="l">เวลาบันทึกเฉลี่ย / ใบงาน<br><span class="hint">Time Study 30 ใบงาน</span></div></div>
-      <div class="card bk rv" style="--d:4"><div class="ic">🧩</div><div class="v"><span data-count="70.6" data-dec="1">0</span><small>%</small></div><div class="l">ความครบถ้วนของข้อมูล</div></div>
-      <div class="card bk rv" style="--d:5"><div class="ic">📅</div><div class="v"><span data-count="51.8" data-dec="1">0</span><small>%</small></div><div class="l">บันทึกตรงเวลา<br>(ภายในวันปฏิบัติงาน)</div></div>
-      <div class="card bk rv" style="--d:6"><div class="ic">🐢</div><div class="v"><span data-count="3.4" data-dec="1">0</span><small>วัน</small></div><div class="l">ปฏิบัติงาน → บันทึกเข้าระบบ</div></div>
-      <div class="card bk rv" style="--d:7"><div class="ic">⚙️</div><div class="v"><span data-count="0.41" data-dec="2">0</span><small>งาน/ชม.</small></div><div class="l">ผลิตภาพแรงงาน</div></div>
+    <div style="display:flex;justify-content:space-between;align-items:flex-end">
+      <h2 class="t rv" style="--d:1">ก่อน vs หลัง: <span class="hl2">ดีขึ้นทุกตัว (p &lt; 0.001)</span></h2>
+      <div class="seg rv" style="--d:2" id="baSeg"><button class="on" data-v="kpi">ภาพรวม 4 ตัวชี้วัด</button><button data-v="ppl">เวลารายบุคคล</button><button data-v="calc">วิธีคำนวณ</button></div>
     </div>
-    <div class="krow" id="krow"></div>
+    <div class="ba" id="baKpi">
+      <div class="barrows" id="barrows"></div>
+      <div class="hint" style="margin-top:10px">ทดสอบการแจกแจงด้วย Shapiro–Wilk [37] (p = 0.08–0.85) → ใช้ Paired t-test [38] [40], df = 9, ค่าวิกฤต t = 2.262</div>
+    </div>
+    <div class="ba" id="baCalc" style="display:none"><div class="calcgrid">
+      <div class="card fx"><span class="chip c-blue">(1) ร้อยละเวลาที่ลดลง</span><div class="eq">(X̄₁ − X̄₂) ÷ X̄₁ × 100</div><div class="eq2">(18.33 − 7.57) ÷ 18.33 × 100 = <b>58.7%</b></div><p>เกินเป้าหมายที่ตั้งไว้ (ลด ≥ 30%)</p></div>
+      <div class="card fx"><span class="chip c-violet">(2) Paired t-test [38] [40]</span><div class="hint" style="margin-top:8px">H₀: μd = 0 · H₁: μd ≠ 0 · d = เวลาก่อน − หลัง</div><div class="eq2">d̄ = 107.6 ÷ 10 = <b>10.76</b></div><div class="eq2">t = 10.76 ÷ (1.66 ÷ √10) = 10.76 ÷ 0.525 = <b>20.50</b></div><p>t = 20.50 &gt; t<sub>วิกฤต</sub> 2.262 (df = 9, α = 0.05 สองทาง) → <b>ปฏิเสธ H₀</b> เวลาก่อน-หลังแตกต่างอย่างมีนัยสำคัญ</p></div>
+      <div class="card fx"><span class="chip c-orange">(3) ผลิตภาพแรงงาน</span><div class="eq">งาน PM ที่ทำเสร็จ ÷ ชั่วโมงแรงงาน</div><div class="eq2">P01 ก่อน = 9 ÷ 20 = <b>0.45</b> งาน/ชม.</div><div class="eq2">P01 หลัง = 16 ÷ 25 = <b>0.64</b> งาน/ชม.</div><button class="btn ghost" style="margin-top:12px;font-size:13px;padding:8px 14px" onclick="openLB(IMG.ttest,'รูปที่ 4.13 การคำนวณ Paired t-test ด้วย Microsoft Excel')">🖼 ดูการคำนวณใน Excel</button></div>
+    </div></div>
+    <div class="ba" id="baPpl" style="display:none">
+      <div class="card dumb"><div style="display:flex;gap:18px;font-size:13px;margin-bottom:8px"><span><i style="display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--orange);vertical-align:-1px"></i> ก่อนใช้ระบบ</span><span><i style="display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--blue);vertical-align:-1px"></i> หลังใช้ระบบ</span><span class="hint">· ชี้ที่จุดเพื่อดูค่า</span></div>
+        <div id="dumb"></div><div class="daxis"><div></div><div class="ax" id="dax"></div><div></div></div></div>
+    </div>
   </section>
-
+  <section class="slide" id="sBen" data-src="หัวข้อ 5.2.1–5.2.2 · [18]" data-title="ประโยชน์ที่ได้รับ">
+    <span class="kicker rv"><i></i>บทที่ 5 · หัวข้อ 5.2 ประโยชน์ที่ได้รับ</span>
+    <span class="sim rv">ข้อมูลจำลอง</span>
+    <h2 class="t rv" style="--d:1">ประโยชน์ต่อ<span class="hl">หน่วยงาน</span>และ<span class="hl2">ผู้จัดทำ</span></h2>
+    <div class="ben">
+      <div class="card bigstat rv" style="--d:2">
+        <div class="hint" style="font-size:14px">⏳ เวลาแรงงานที่ได้คืนมาต่อปี</div>
+        <div class="v hl"><span id="hrs">0</span></div>
+        <div class="u">ชั่วโมงแรงงาน / ปี</div>
+        <div class="f">ลดเวลาบันทึกเฉลี่ย <b>10.8 นาที</b>/ใบงาน × <b id="woN">1,254</b> ใบ/ปี<br>นำไปใช้กับงานบำรุงรักษาที่สร้างคุณค่าได้</div>
+        <input type="range" id="woR" min="500" max="3000" step="2" value="1254">
+        <div class="hint">ลองเลื่อน: ถ้าขยายไปทีมอื่นที่มีใบงานมากขึ้น</div>
+      </div>
+      <div class="card sugg rv" style="--d:3;min-height:auto">
+        <div class="tabs seg" id="benSeg"><button class="on" data-b="org">🏢 ต่อหน่วยงาน (5)</button><button data-b="me">🎓 ต่อผู้จัดทำ (4)</button></div>
+        <ul id="benList"></ul>
+      </div>
+    </div>
+  </section>
+  <section class="slide" id="s9" data-src="หัวข้อ 4.2 · ตารางที่ 4.2 · รูปที่ 4.1–4.8" data-title="ระบบที่พัฒนา 9 หน้าจอ">
+    <span class="kicker blue rv"><i></i>หัวข้อ 4.2 · ผลการพัฒนาเว็บแอปพลิเคชัน</span>
+    <div style="display:flex;justify-content:space-between;align-items:flex-end">
+      <h2 class="t rv" style="--d:1"><a class="weblink" href="https://pmweb.online/" target="_blank" rel="noopener">pmweb.online</a> — <span class="hl2">9 หน้าจอหลัก</span></h2>
+      <button class="btn ghost rv" style="--d:2" id="scrAuto">⏯ สไลด์โชว์</button>
+    </div>
+    <div class="scr">
+      <div class="scrlist rv" style="--d:2" id="scrlist"></div>
+      <div class="scrview rv" style="--d:3">
+        <div class="frame"><div class="browserbar"><i></i><i></i><i></i><a class="weblink" href="https://pmweb.online/" target="_blank" rel="noopener"><span id="scrUrl">🔒 pmweb.online</span></a></div>
+          <div class="imgbox" id="scrBox"><img id="scrImg" class="zoomable" alt=""></div></div>
+        <div class="desc"><div><div class="tt" id="scrTt"></div><p id="scrDs"></p></div><span style="display:flex;gap:10px;align-items:center"><span class="hint">🔍 คลิกภาพเพื่อขยาย</span><a class="btn blue" style="padding:8px 14px;font-size:13px;text-decoration:none;background:var(--blue);color:#fff" href="https://pmweb.online/" target="_blank" rel="noopener">🌐 เปิดเว็บจริง ↗</a></span></div>
+      </div>
+    </div>
+  </section>
+  <section class="slide" id="sObs" data-src="หัวข้อ 5.3 · ตารางที่ 5.2" data-title="ปัญหาและอุปสรรค">
+    <span class="kicker rv"><i></i>บทที่ 5 · หัวข้อ 5.3 ปัญหาและอุปสรรค</span>
+    <h2 class="t rv" style="--d:1">อุปสรรคระหว่างทาง & <span class="hl">วิธีรับมือ</span></h2>
+    <p class="sub rv" style="--d:2">คลิกการ์ดเพื่อพลิกดูแนวทางแก้ไข</p>
+    <div class="obs" id="obs"></div>
+  </section>
+  <section class="slide" id="s16" data-src="หัวข้อ 4.10 · ตารางที่ 4.12" data-title="ข้อเสนอแนะ & การปรับปรุง">
+    <span class="kicker pink rv"><i></i>หัวข้อ 4.10 · เสียงจากผู้ใช้งาน</span>
+    <h2 class="t rv" style="--d:1">ฟังผู้ใช้ → ปรับระบบ: <span class="hl">5 เรื่อง</span></h2>
+    <div class="fbf rv" style="--d:2"><div class="seg" id="fbSeg"><button class="on" data-f="all">ทั้งหมด (5)</button><button data-f="done">✅ ปรับปรุงแล้ว (3)</button><button data-f="wip">🛠 อยู่ระหว่างพัฒนา (2)</button></div></div>
+    <div class="fbgrid" id="fbgrid"></div>
+  </section>
   <section class="slide" id="sIE" data-src="หัวข้อ 3.1.3, 3.2, 3.3, 4.6, 4.8–4.9 · ตารางที่ 4.1, 4.7 · รูปที่ 3.2" data-title="ความรู้ IE ที่นำมาใช้">
     <span class="kicker violet rv"><i></i>บทที่ 3–4 · ความรู้วิศวกรรมอุตสาหการ</span>
     <h2 class="t rv" style="--d:1">ความรู้ <span class="hl">วิศวกรรมอุตสาหการ</span> ที่นำมาใช้</h2>
@@ -922,25 +893,130 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       </div>
     </div>
   </section>
-  <!-- ================= 9 SCREENS ================= -->
-  <section class="slide" id="s9" data-src="หัวข้อ 4.2 · ตารางที่ 4.2 · รูปที่ 4.1–4.8" data-title="ระบบที่พัฒนา 9 หน้าจอ">
-    <span class="kicker blue rv"><i></i>หัวข้อ 4.2 · ผลการพัฒนาเว็บแอปพลิเคชัน</span>
-    <div style="display:flex;justify-content:space-between;align-items:flex-end">
-      <h2 class="t rv" style="--d:1"><a class="weblink" href="https://pmweb.online/" target="_blank" rel="noopener">pmweb.online</a> — <span class="hl2">9 หน้าจอหลัก</span></h2>
-      <button class="btn ghost rv" style="--d:2" id="scrAuto">⏯ สไลด์โชว์</button>
-    </div>
-    <div class="scr">
-      <div class="scrlist rv" style="--d:2" id="scrlist"></div>
-      <div class="scrview rv" style="--d:3">
-        <div class="frame"><div class="browserbar"><i></i><i></i><i></i><a class="weblink" href="https://pmweb.online/" target="_blank" rel="noopener"><span id="scrUrl">🔒 pmweb.online</span></a></div>
-          <div class="imgbox" id="scrBox"><img id="scrImg" class="zoomable" alt=""></div></div>
-        <div class="desc"><div><div class="tt" id="scrTt"></div><p id="scrDs"></p></div><span style="display:flex;gap:10px;align-items:center"><span class="hint">🔍 คลิกภาพเพื่อขยาย</span><a class="btn blue" style="padding:8px 14px;font-size:13px;text-decoration:none;background:var(--blue);color:#fff" href="https://pmweb.online/" target="_blank" rel="noopener">🌐 เปิดเว็บจริง ↗</a></span></div>
+  <section class="slide" id="s18" data-src="หัวข้อ 5.4–5.6 · [10]" data-title="บทเรียน & ข้อเสนอแนะ">
+    <span class="kicker blue rv"><i></i>บทที่ 5 · สิ่งที่ได้เรียนรู้ · ข้อจำกัด · ข้อเสนอแนะ</span>
+    <h2 class="t rv" style="--d:1">สิ่งที่ได้เรียนรู้จากการแก้ปัญหา</h2>
+    <div class="lgrid">
+      <div class="card rv" style="--d:2;padding:10px 10px">
+        <div class="lesson"><div class="n" style="background:var(--orange)">1</div><div><b>วิเคราะห์สาเหตุก่อนเลือกเครื่องมือ</b><span>Dashboard รอบแรกชี้ว่าเครื่องมือดีไม่ช่วย ถ้าข้อมูลต้นทางยังไม่ครบ</span></div></div>
+        <div class="lesson"><div class="n" style="background:var(--pink)">2</div><div><b>ผู้ใช้หน้างานเป็นผู้ตัดสินความสำเร็จ</b><span>ตัวอักษรเล็กกลางแจ้ง ฯลฯ พบได้เฉพาะตอนใช้จริง</span></div></div>
+        <div class="lesson"><div class="n" style="background:var(--blue)">3</div><div><b>ออกแบบให้ใกล้วิธีทำงานเดิมช่วยลดแรงต้าน</b><span>จัดฟอร์มตามใบตรวจกระดาษที่ช่างคุ้นเคย</span></div></div>
+        <div class="lesson"><div class="n" style="background:var(--teal)">4</div><div><b>ทดสอบอย่างเป็นระบบจับข้อผิดพลาดที่มองไม่เห็น</b><span>เช่น เขตเวลา และความต่างของเบราว์เซอร์</span></div></div>
+        <div class="lesson"><div class="n" style="background:var(--violet)">5</div><div><b>ข้อจำกัดองค์กรคือเงื่อนไขการออกแบบ</b><span>ไม่แก้ CMMS ได้ → ออกแบบให้ส่งออกไฟล์นำเข้าแทน</span></div></div>
+      </div>
+      <div class="rv" style="--d:3">
+        <div class="card sugg">
+          <div class="tabs seg" id="sgSeg"><button class="on" data-s="lim">⚠️ ข้อจำกัด</button><button data-s="org">🏢 หน่วยงาน</button><button data-s="sys">💻 พัฒนาระบบ</button><button data-s="next">🔬 ศึกษาต่อ</button></div>
+          <ul id="sgList"></ul>
+        </div>
+        
       </div>
     </div>
   </section>
-
-
-  <!-- ================= ROLES ================= -->
+  <section class="slide" id="s20" data-title="ขอบคุณ / Q&A">
+    <div class="orbit" style="width:760px;height:760px"><i style="background:var(--yellow)"></i></div>
+    <div class="orbit" style="width:560px;height:560px;animation-duration:28s;animation-direction:reverse"><i style="background:var(--blue)"></i></div>
+    <div class="orbit" style="width:380px;height:380px;animation-duration:18s"><i style="background:var(--teal)"></i></div>
+    <div style="position:relative">
+      <div class="rv pop" style="font-size:54px">🙏</div>
+      <h1 class="rv" style="--d:1"><span class="hl">ขอบคุณ</span>ค่ะ</h1>
+      <div class="qa rv" style="--d:2">ถาม–ตอบ · Q &amp; A</div>
+      <div class="meta">
+        <a class="card rv" style="--d:3;text-decoration:none;color:inherit" href="https://pmweb.online/" target="_blank" rel="noopener">🌐 <span class="url">pmweb.online</span> ↗</a>
+        <div class="card rv" style="--d:4">👩‍🔧 ศิรภัสสร กลับสุข · 66050779</div>
+        <div class="card rv" style="--d:5">🎓 วิศวกรรมอุตสาหการและการจัดการ ม.ศรีปทุม</div>
+      </div>
+      <div class="rv" style="--d:6;margin-top:28px"><button class="btn orange" id="party">🎉 ฉลองความสำเร็จ</button></div>
+    </div>
+  </section>
+  <section class="slide" id="sAg" data-title="หัวข้อการนำเสนอ">
+    <span class="kicker rv"><i></i>Agenda</span>
+    <h2 class="t rv" style="--d:1">หัวข้อการนำเสนอ</h2>
+    <p class="sub rv" style="--d:2">คลิกที่บทเพื่อข้ามไปยังส่วนนั้นได้ทันที</p>
+    <div class="ag" id="ag"></div>
+  </section>
+  <section class="slide" id="s3" data-src="หัวข้อ 3.1 · รูปที่ 3.2 · ตารางที่ 3.1 · [1] [34]" data-title="ช่องว่าง 3 ด้าน">
+    <span class="kicker blue rv"><i></i>บทที่ 3 · วิเคราะห์ช่องว่างเทียบ World Class Maintenance</span>
+    <h2 class="t rv" style="--d:1">ช่องว่างการดำเนินงาน <span class="hl2">3 ด้าน</span></h2>
+    <p class="sub rv" style="--d:2">คลิกการ์ดเพื่อพลิกดู “แนวทางของโครงงาน” · <a href="#" onclick="openLB(IMG.fish,'รูปที่ 3.2 แผนผังก้างปลาแสดงสาเหตุของปัญหาข้อมูลงาน PM');return false" style="color:var(--blue);font-weight:600">🐟 ดูแผนผังก้างปลา</a></p>
+    <div class="flips">
+      <div class="flip rv" style="--d:3" onclick="this.classList.toggle('on')"><div class="in">
+        <div class="fc"><div class="em" style="background:var(--blue-s)">🖥️</div><h4>โครงสร้างพื้นฐาน<br>และเทคโนโลยี</h4><div class="en">Infrastructure &amp; Technology Gap [34]</div>
+          <ul><li>ระบบทำงานแยกส่วน (Data Silo)</li><li>ต้อง Export Excel รายครั้งเพื่อวิเคราะห์</li><li>ขาดการประมวลผล KPI อัตโนมัติ</li></ul><div class="tap">👆 คลิกเพื่อพลิก</div></div>
+        <div class="bc" style="background:linear-gradient(150deg,var(--blue),var(--g2))"><div class="lab">แนวทางของโครงงาน</div><h4>เครื่องมือเสริม<br>ไม่แตะระบบเดิม</h4><ul><li>ไม่แก้ไข CMMS เดิม (ข้อจำกัดองค์กร)</li><li>ส่งออกไฟล์ Excel ตามรูปแบบนำเข้า CMMS</li><li>Dashboard คำนวณ KPI ให้อัตโนมัติ</li></ul></div>
+      </div></div>
+      <div class="flip rv" style="--d:4" onclick="this.classList.toggle('on')"><div class="in">
+        <div class="fc"><div class="em" style="background:var(--orange-s)">📋</div><h4>การบริหารจัดการ<br>ข้อมูล</h4><div class="en">Data Management Gap</div>
+          <ul><li>ข้อมูลไม่สมบูรณ์ / ไม่ถูกต้อง</li><li>เวลาปิดงานไม่ตรงความจริง</li><li>ระบุสาเหตุการชำรุดคลุมเครือ</li></ul><div class="tap">👆 คลิกเพื่อพลิก</div></div>
+        <div class="bc" style="background:linear-gradient(150deg,var(--pink),var(--pink))"><div class="lab">แนวทางของโครงงาน</div><h4>บันทึกที่ต้นทาง<br>เพียงครั้งเดียว</h4><ul><li>ใบตรวจดิจิทัล 11 แบบผูกกับใบงาน</li><li>เติมรหัสอุปกรณ์/สถานที่ให้อัตโนมัติ</li><li>ตรวจความครบถ้วนขณะกรอก</li></ul></div>
+      </div></div>
+      <div class="flip rv" style="--d:5" onclick="this.classList.toggle('on')"><div class="in">
+        <div class="fc"><div class="em" style="background:var(--teal-s)">👷</div><h4>บุคลากรและ<br>วัฒนธรรมองค์กร</h4><div class="en">People &amp; Culture Gap [1] [10]</div>
+          <ul><li>มองว่าการกรอกข้อมูลเป็นภาระส่วนเกิน</li><li>ทักษะดิจิทัลแต่ละคนไม่เท่ากัน</li><li>ช่างไม่เห็นผลงาน/KPI ของตนเอง</li></ul><div class="tap">👆 คลิกเพื่อพลิก</div></div>
+        <div class="bc" style="background:linear-gradient(150deg,var(--teal),var(--teal))"><div class="lab">แนวทางของโครงงาน</div><h4>ใช้ง่าย + เห็นผล<br>ของตัวเอง</h4><ul><li>UI ออกแบบตามงานหน้างานจริง (TAM)</li><li>Dashboard เพื่อ Self-Monitoring</li><li>ใช้ข้อมูลเพื่อพัฒนา ไม่ใช่เพื่อลงโทษ</li></ul></div>
+      </div></div>
+    </div>
+  </section>
+  <section class="slide" id="s5" data-src="บทที่ 2 · [1] [2] [3] [8] [9] [10] [14] [15] [16] [18]" data-title="ทฤษฎีที่เกี่ยวข้อง">
+    <span class="kicker violet rv"><i></i>บทที่ 2 · ทฤษฎีและงานวิจัยที่เกี่ยวข้อง</span>
+    <h2 class="t rv" style="--d:1">กรอบแนวคิดที่ใช้ออกแบบ <span style="font-size:20px;color:var(--muted);font-weight:500">— คลิกแต่ละวงเพื่อดูรายละเอียด</span></h2>
+    <div class="hubwrap">
+      <div class="hub rv pop" style="--d:2" id="hub">
+        <svg class="lines" width="600" height="500" id="hubLines"></svg>
+        <div class="core">เว็บแอป<br>PM ↔ CMMS</div>
+      </div>
+      <div class="card hdetail rv" style="--d:3" id="hdetail"></div>
+    </div>
+  </section>
+  <section class="slide" id="sPmt" data-src="ตารางที่ 2.1–2.2 · รูปที่ 2.1 · [2] [3] [4] [5] [8] [16]" data-title="รูปแบบ PM & เกณฑ์ระดับโลก">
+    <span class="kicker violet rv"><i></i>บทที่ 2 · หัวข้อ 2.1–2.2</span>
+    <h2 class="t rv" style="--d:1">รูปแบบ PM และ <span class="hl">เกณฑ์มาตรฐานระดับโลก</span></h2>
+    <div class="pmt">
+      <div class="card pmbox rv" style="--d:2">
+        <div class="seg" id="pmSeg"><button class="on" data-i="0">ตามรอบเวลา</button><button data-i="1">ตามการใช้งาน</button><button data-i="2">ตามสภาพ</button><button data-i="3">เชิงพยากรณ์</button></div>
+        <div id="pmBody" style="margin-top:14px"></div>
+        <button class="btn ghost" style="margin-top:14px;font-size:13px;padding:8px 14px" onclick="openLB(IMG.wcm,'รูปที่ 2.1 วิวัฒนาการแนวคิด World Class Maintenance')">🖼 วิวัฒนาการ WCM</button>
+      </div>
+      <div class="card bench rv" style="--d:3"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><b style="font:700 17px var(--hfont)">🌍 World Class Benchmarks <span class="hint">[3] [8] [16]</span></b><span class="hint">★ = สะท้อนอยู่ในตัวชี้วัดของโครงงาน</span></div><div id="bench"></div></div>
+    </div>
+  </section>
+  <section class="slide" id="sRes" data-src="หัวข้อ 2.7 · [19]–[33]" data-title="งานวิจัยที่เกี่ยวข้อง 15 เรื่อง">
+    <span class="kicker violet rv"><i></i>บทที่ 2 · หัวข้อ 2.7 งานวิจัยที่เกี่ยวข้อง</span>
+    <div style="display:flex;justify-content:space-between;align-items:flex-end">
+      <h2 class="t rv" style="--d:1">งานวิจัยที่เกี่ยวข้อง <span class="hl">15 เรื่อง</span></h2>
+      <div class="seg rv" style="--d:2" id="resSeg"><button class="on" data-g="0">WCM / TPM (5)</button><button data-g="1">CMMS (5)</button><button data-g="2">การยอมรับเทคโนโลยี (3)</button><button data-g="3">SDGs (2)</button></div>
+    </div>
+    <div class="resg" id="resg"></div>
+    <div class="quote rv" style="--d:4;margin-top:14px">💡 ข้อสรุปร่วม: ความสำเร็จของ WCM หรือ CMMS <b>ไม่ได้อยู่ที่ตัวโปรแกรมเป็นหลัก แต่อยู่ที่คนและคุณภาพข้อมูล</b> — โครงงานจึงแก้ที่ “คน” และ “จุดบันทึกต้นทาง”</div>
+  </section>
+  <section class="slide" id="sTool" data-src="ตารางที่ 2.3 · [1] [2] [3] [9] [10] [13] [14] [15]" data-title="เหตุผลการเลือกเครื่องมือ">
+    <span class="kicker violet rv"><i></i>บทที่ 2 · ตารางที่ 2.3 การเชื่อมโยงทฤษฎีกับการเลือกเครื่องมือ</span>
+    <h2 class="t rv" style="--d:1">ทำไมถึงเลือก<span class="hl">เครื่องมือนี้</span> ไม่ใช่ทางเลือกอื่น?</h2>
+    <p class="sub rv" style="--d:2">คลิกแต่ละแถวเพื่อดูเหตุผล — ทุกเครื่องมือถูกเลือกเพราะเหมาะกับปัญหาและข้อจำกัดของหน่วยงาน</p>
+    <div class="tools rv" style="--d:3" id="tools"></div>
+  </section>
+  <section class="slide" id="sDes" data-src="หัวข้อ 3.2–3.4 · รูปที่ 3.3–3.6" data-title="การออกแบบระบบ">
+    <span class="kicker teal rv"><i></i>บทที่ 3 · หัวข้อ 3.2–3.4 ข้อมูล โครงสร้างระบบ และ UI/UX</span>
+    <div style="display:flex;justify-content:space-between;align-items:flex-end">
+      <h2 class="t rv" style="--d:1">ออกแบบจาก<span class="hl">วิธีทำงานจริง</span></h2>
+      <div class="seg rv" style="--d:2" id="desSeg"><button class="on" data-i="0">กระบวนการเดิม vs ใหม่</button><button data-i="1">ใบตรวจกระดาษเดิม</button><button data-i="2">Context Diagram</button><button data-i="3">ผังหน้าจอ</button></div>
+    </div>
+    <div class="des rv" style="--d:3"><div class="card txt" id="desTxt"></div><div class="card pic" id="desPic"></div></div>
+  </section>
+  <section class="slide" id="s8" data-src="หัวข้อ 4.1 · ตารางที่ 4.1 · ข้อมูลจำลอง" data-title="ข้อมูลฐานก่อนใช้ระบบ">
+    <span class="kicker rv"><i></i>หัวข้อ 4.1 · Baseline (ก.ย. 68 – ส.ค. 69)</span>
+    <span class="sim rv">ข้อมูลจำลอง</span>
+    <h2 class="t rv" style="--d:1">ก่อนใช้ระบบ: <span style="color:var(--red)">KPI ไม่ผ่านเป้าทั้ง 4 ตัว</span></h2>
+    <p class="sub rv" style="--d:2">ใบงาน PM 1,254 ใบ (หม้อแปลง 1,036 · LBS 218) กรอกข้อมูลบังคับครบเพียง 885 ใบ — ช่องที่ขาดบ่อยคือ สาเหตุการชำรุด เวลาปิดงาน และค่าที่วัดได้</p>
+    <div class="bgrid">
+      <div class="card bk rv" style="--d:3"><div class="ic">⏱️</div><div class="v"><span data-count="18.3" data-dec="1">0</span><small>นาที</small></div><div class="l">เวลาบันทึกเฉลี่ย / ใบงาน<br><span class="hint">Time Study 30 ใบงาน</span></div></div>
+      <div class="card bk rv" style="--d:4"><div class="ic">🧩</div><div class="v"><span data-count="70.6" data-dec="1">0</span><small>%</small></div><div class="l">ความครบถ้วนของข้อมูล</div></div>
+      <div class="card bk rv" style="--d:5"><div class="ic">📅</div><div class="v"><span data-count="51.8" data-dec="1">0</span><small>%</small></div><div class="l">บันทึกตรงเวลา<br>(ภายในวันปฏิบัติงาน)</div></div>
+      <div class="card bk rv" style="--d:6"><div class="ic">🐢</div><div class="v"><span data-count="3.4" data-dec="1">0</span><small>วัน</small></div><div class="l">ปฏิบัติงาน → บันทึกเข้าระบบ</div></div>
+      <div class="card bk rv" style="--d:7"><div class="ic">⚙️</div><div class="v"><span data-count="0.41" data-dec="2">0</span><small>งาน/ชม.</small></div><div class="l">ผลิตภาพแรงงาน</div></div>
+    </div>
+    <div class="krow" id="krow"></div>
+  </section>
   <section class="slide" id="sRole" data-src="หัวข้อ 4.3 · ตารางที่ 4.3 · [36]" data-title="ขั้นตอนใช้งานตามบทบาท">
     <span class="kicker blue rv"><i></i>หัวข้อ 4.3 · ตารางที่ 4.3 ขั้นตอนการใช้งานตามบทบาทและอุปกรณ์</span>
     <div style="display:flex;justify-content:space-between;align-items:flex-end">
@@ -953,7 +1029,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       <div class="card rv" style="--d:5"><b class="h">📱 บนสมาร์ทโฟน (ช่าง)</b>เปิดด้วย Chrome (Android) หรือ Safari (iOS) แนะนำ <b>เพิ่มไปยังหน้าจอหลัก</b> ใช้เหมือนแอป → ☰ “นำทางตรวจภาคสนาม” → “ตรวจและปิดใบงาน” → บันทึก หากสัญญาณหลุด ระบบ<b>บันทึกในเครื่องก่อนแล้วซิงก์ภายหลัง</b> · หน้าจอปรับตามขนาดจออัตโนมัติ (Responsive)</div>
     </div>
   </section>
-  <!-- ================= 10 PHONE DEMO ================= -->
   <section class="slide" id="s10" data-src="หัวข้อ 4.3.2 · รูปที่ 4.5, 4.9–4.10" data-title="ลองปิดใบงานบนมือถือ">
     <span class="kicker teal rv"><i></i>หัวข้อ 4.3 · ใช้งานบนสมาร์ทโฟนที่หน้างาน</span>
     <h2 class="t rv" style="--d:1">ลองเลย! <span class="hl2">ตรวจและปิดใบงาน PM-0093</span></h2>
@@ -997,8 +1072,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       </div>
     </div>
   </section>
-
-  <!-- ================= 11 TESTS ================= -->
   <section class="slide" id="s11" data-src="หัวข้อ 4.4 · ตารางที่ 4.4 · [13]" data-title="ทดสอบระบบ 32 กรณี">
     <span class="kicker violet rv"><i></i>หัวข้อ 4.4 · ผลการทดสอบระบบภายใน</span>
     <div style="display:flex;justify-content:space-between;align-items:flex-end">
@@ -1014,9 +1087,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       </div>
     </div>
   </section>
-
-
-  <!-- ================= SIMULATION ================= -->
   <section class="slide" id="sSim" data-src="หัวข้อ 4.5 · ตารางที่ 4.5–4.6 · รูปที่ 4.11 · [3] [8] [9]" data-title="จำลองใบงาน PM-0093 & คำนวณ KPI">
     <span class="kicker blue rv"><i></i>หัวข้อ 4.5 · การจำลองผลการดำเนินงาน (98 ใบงาน · 4 สัปดาห์)</span>
     <span class="sim rv">ข้อมูลจำลอง</span>
@@ -1036,30 +1106,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       </div>
     </div>
   </section>
-  <!-- ================= 12 BEFORE/AFTER ================= -->
-  <section class="slide" id="s12" data-src="หัวข้อ 4.6 · ตารางที่ 4.7–4.8 · รูปที่ 4.12–4.13 · [37] [38] [40]" data-title="ผลก่อน-หลังใช้ระบบ">
-    <span class="kicker rv"><i></i>หัวข้อ 4.6 · ทดลองใช้จริง 4 สัปดาห์ · ช่าง 8 + หัวหน้างาน 2 (n = 10)</span>
-    <span class="sim rv">ข้อมูลจำลอง</span>
-    <div style="display:flex;justify-content:space-between;align-items:flex-end">
-      <h2 class="t rv" style="--d:1">ก่อน vs หลัง: <span class="hl2">ดีขึ้นทุกตัว (p &lt; 0.001)</span></h2>
-      <div class="seg rv" style="--d:2" id="baSeg"><button class="on" data-v="kpi">ภาพรวม 4 ตัวชี้วัด</button><button data-v="ppl">เวลารายบุคคล</button><button data-v="calc">วิธีคำนวณ</button></div>
-    </div>
-    <div class="ba" id="baKpi">
-      <div class="barrows" id="barrows"></div>
-      <div class="hint" style="margin-top:10px">ทดสอบการแจกแจงด้วย Shapiro–Wilk [37] (p = 0.08–0.85) → ใช้ Paired t-test [38] [40], df = 9, ค่าวิกฤต t = 2.262</div>
-    </div>
-    <div class="ba" id="baCalc" style="display:none"><div class="calcgrid">
-      <div class="card fx"><span class="chip c-blue">(1) ร้อยละเวลาที่ลดลง</span><div class="eq">(X̄₁ − X̄₂) ÷ X̄₁ × 100</div><div class="eq2">(18.33 − 7.57) ÷ 18.33 × 100 = <b>58.7%</b></div><p>เกินเป้าหมายที่ตั้งไว้ (ลด ≥ 30%)</p></div>
-      <div class="card fx"><span class="chip c-violet">(2) Paired t-test [38] [40]</span><div class="hint" style="margin-top:8px">H₀: μd = 0 · H₁: μd ≠ 0 · d = เวลาก่อน − หลัง</div><div class="eq2">d̄ = 107.6 ÷ 10 = <b>10.76</b></div><div class="eq2">t = 10.76 ÷ (1.66 ÷ √10) = 10.76 ÷ 0.525 = <b>20.50</b></div><p>t = 20.50 &gt; t<sub>วิกฤต</sub> 2.262 (df = 9, α = 0.05 สองทาง) → <b>ปฏิเสธ H₀</b> เวลาก่อน-หลังแตกต่างอย่างมีนัยสำคัญ</p></div>
-      <div class="card fx"><span class="chip c-orange">(3) ผลิตภาพแรงงาน</span><div class="eq">งาน PM ที่ทำเสร็จ ÷ ชั่วโมงแรงงาน</div><div class="eq2">P01 ก่อน = 9 ÷ 20 = <b>0.45</b> งาน/ชม.</div><div class="eq2">P01 หลัง = 16 ÷ 25 = <b>0.64</b> งาน/ชม.</div><button class="btn ghost" style="margin-top:12px;font-size:13px;padding:8px 14px" onclick="openLB(IMG.ttest,'รูปที่ 4.13 การคำนวณ Paired t-test ด้วย Microsoft Excel')">🖼 ดูการคำนวณใน Excel</button></div>
-    </div></div>
-    <div class="ba" id="baPpl" style="display:none">
-      <div class="card dumb"><div style="display:flex;gap:18px;font-size:13px;margin-bottom:8px"><span><i style="display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--orange);vertical-align:-1px"></i> ก่อนใช้ระบบ</span><span><i style="display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--blue);vertical-align:-1px"></i> หลังใช้ระบบ</span><span class="hint">· ชี้ที่จุดเพื่อดูค่า</span></div>
-        <div id="dumb"></div><div class="daxis"><div></div><div class="ax" id="dax"></div><div></div></div></div>
-    </div>
-  </section>
-
-  <!-- ================= 13 KPI GAUGES ================= -->
   <section class="slide" id="s13" data-src="หัวข้อ 4.7 · ตารางที่ 4.6, 4.9 · รูปที่ 4.14 · [3] [8] [9]" data-title="KPI งานบำรุงรักษา 4 ตัว">
     <span class="kicker blue rv"><i></i>หัวข้อ 4.7 · ตัวชี้วัดงานบำรุงรักษา</span>
     <span class="sim rv">ข้อมูลจำลอง</span>
@@ -1077,8 +1123,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       <div class="hint" style="line-height:1.5">⚠️ MTTR และ Failure Frequency ขึ้นกับปัจจัยภายนอก ต้องติดตามต่อ 6–12 เดือนก่อนสรุป</div>
     </div>
   </section>
-
-  <!-- ================= 14 SUS ================= -->
   <section class="slide" id="s14" data-src="หัวข้อ 4.8 · ตารางที่ 4.10 · รูปที่ 4.15–4.16 · [15] [16]" data-title="ประเมินการใช้งาน SUS">
     <span class="kicker violet rv"><i></i>หัวข้อ 4.8 · System Usability Scale</span>
     <span class="sim rv">ข้อมูลจำลอง</span>
@@ -1100,8 +1144,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       </div>
     </div>
   </section>
-
-  <!-- ================= 15 TAM ================= -->
   <section class="slide" id="s15" data-src="หัวข้อ 4.9 · ตารางที่ 4.11 · รูปที่ 4.17 · [14] [43] [44]" data-title="การยอมรับเทคโนโลยี TAM">
     <span class="kicker teal rv"><i></i>หัวข้อ 4.9 · Technology Acceptance Model (11 ข้อ · 5 ระดับ)</span>
     <span class="sim rv">ข้อมูลจำลอง</span>
@@ -1109,17 +1151,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
     <div class="tam" id="tam"></div>
     <div class="card overall rv" style="--d:6"><b class="hl2">4.46</b><div><div style="font:700 15px var(--hfont)">ภาพรวม (SD 0.36) · ระดับมากที่สุด</div><div class="hint">ครอนบาคแอลฟาทุกด้าน &gt; 0.70 (เกณฑ์ Nunnally [44]) · Cronbach [43] · ตัวอย่างด้าน PU: α = 4/3 × (1 − 1.222/2.667) = 1.333 × 0.542 = <strong>0.72</strong></div></div><span class="chip c-teal" style="margin-left:auto">👆 คลิกการ์ดเพื่อดูรายข้อ</span></div>
   </section>
-
-  <!-- ================= 16 FEEDBACK ================= -->
-  <section class="slide" id="s16" data-src="หัวข้อ 4.10 · ตารางที่ 4.12" data-title="ข้อเสนอแนะ & การปรับปรุง">
-    <span class="kicker pink rv"><i></i>หัวข้อ 4.10 · เสียงจากผู้ใช้งาน</span>
-    <h2 class="t rv" style="--d:1">ฟังผู้ใช้ → ปรับระบบ: <span class="hl">5 เรื่อง</span></h2>
-    <div class="fbf rv" style="--d:2"><div class="seg" id="fbSeg"><button class="on" data-f="all">ทั้งหมด (5)</button><button data-f="done">✅ ปรับปรุงแล้ว (3)</button><button data-f="wip">🛠 อยู่ระหว่างพัฒนา (2)</button></div></div>
-    <div class="fbgrid" id="fbgrid"></div>
-  </section>
-
-
-  <!-- ================= DISCUSSION ================= -->
   <section class="slide" id="sDis" data-src="หัวข้อ 4.11 · ตารางที่ 4.13 · [1] [14] [24] [27] [29] [30]" data-title="อภิปรายผล">
     <span class="kicker blue rv"><i></i>หัวข้อ 4.11 · อภิปรายผล</span>
     <h2 class="t rv" style="--d:1">แต่ละรอบการปรับปรุง<span class="hl">ส่งผลต่อเนื่องกัน</span></h2>
@@ -1136,7 +1167,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
       </div>
     </div>
   </section>
-  <!-- ================= 17 SUMMARY ================= -->
   <section class="slide" id="s17" data-src="หัวข้อ 5.1 · ตารางที่ 5.1" data-title="สรุปผลเทียบเป้าหมาย">
     <span class="kicker rv"><i></i>บทที่ 5 · สรุปผลการดำเนินงาน</span>
     <span class="sim rv">ข้อมูลจำลอง</span>
@@ -1144,59 +1174,6 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
     <table class="sum rv" style="--d:2"><thead><tr><th>ตัวชี้วัด</th><th>เป้าหมาย</th><th>ก่อนใช้ระบบ</th><th>หลังใช้ระบบ</th><th>ผล</th></tr></thead><tbody id="sumb"></tbody></table>
     <div class="hint">* ผลจากช่วงทดลองใช้ 4 สัปดาห์ ต้องติดตามต่ออย่างน้อย 6–12 เดือนก่อนสรุป</div>
   </section>
-
-
-  <!-- ================= BENEFITS ================= -->
-  <section class="slide" id="sBen" data-src="หัวข้อ 5.2.1–5.2.2 · [18]" data-title="ประโยชน์ที่ได้รับ">
-    <span class="kicker rv"><i></i>บทที่ 5 · หัวข้อ 5.2 ประโยชน์ที่ได้รับ</span>
-    <span class="sim rv">ข้อมูลจำลอง</span>
-    <h2 class="t rv" style="--d:1">ประโยชน์ต่อ<span class="hl">หน่วยงาน</span>และ<span class="hl2">ผู้จัดทำ</span></h2>
-    <div class="ben">
-      <div class="card bigstat rv" style="--d:2">
-        <div class="hint" style="font-size:14px">⏳ เวลาแรงงานที่ได้คืนมาต่อปี</div>
-        <div class="v hl"><span id="hrs">0</span></div>
-        <div class="u">ชั่วโมงแรงงาน / ปี</div>
-        <div class="f">ลดเวลาบันทึกเฉลี่ย <b>10.8 นาที</b>/ใบงาน × <b id="woN">1,254</b> ใบ/ปี<br>นำไปใช้กับงานบำรุงรักษาที่สร้างคุณค่าได้</div>
-        <input type="range" id="woR" min="500" max="3000" step="2" value="1254">
-        <div class="hint">ลองเลื่อน: ถ้าขยายไปทีมอื่นที่มีใบงานมากขึ้น</div>
-      </div>
-      <div class="card sugg rv" style="--d:3;min-height:auto">
-        <div class="tabs seg" id="benSeg"><button class="on" data-b="org">🏢 ต่อหน่วยงาน (5)</button><button data-b="me">🎓 ต่อผู้จัดทำ (4)</button></div>
-        <ul id="benList"></ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= OBSTACLES ================= -->
-  <section class="slide" id="sObs" data-src="หัวข้อ 5.3 · ตารางที่ 5.2" data-title="ปัญหาและอุปสรรค">
-    <span class="kicker rv"><i></i>บทที่ 5 · หัวข้อ 5.3 ปัญหาและอุปสรรค</span>
-    <h2 class="t rv" style="--d:1">อุปสรรคระหว่างทาง & <span class="hl">วิธีรับมือ</span></h2>
-    <p class="sub rv" style="--d:2">คลิกการ์ดเพื่อพลิกดูแนวทางแก้ไข</p>
-    <div class="obs" id="obs"></div>
-  </section>
-  <!-- ================= 18 LESSONS ================= -->
-  <section class="slide" id="s18" data-src="หัวข้อ 5.4–5.6 · [10]" data-title="บทเรียน & ข้อเสนอแนะ">
-    <span class="kicker blue rv"><i></i>บทที่ 5 · สิ่งที่ได้เรียนรู้ · ข้อจำกัด · ข้อเสนอแนะ</span>
-    <h2 class="t rv" style="--d:1">สิ่งที่ได้เรียนรู้จากการแก้ปัญหา</h2>
-    <div class="lgrid">
-      <div class="card rv" style="--d:2;padding:10px 10px">
-        <div class="lesson"><div class="n" style="background:var(--orange)">1</div><div><b>วิเคราะห์สาเหตุก่อนเลือกเครื่องมือ</b><span>Dashboard รอบแรกชี้ว่าเครื่องมือดีไม่ช่วย ถ้าข้อมูลต้นทางยังไม่ครบ</span></div></div>
-        <div class="lesson"><div class="n" style="background:var(--pink)">2</div><div><b>ผู้ใช้หน้างานเป็นผู้ตัดสินความสำเร็จ</b><span>ตัวอักษรเล็กกลางแจ้ง ฯลฯ พบได้เฉพาะตอนใช้จริง</span></div></div>
-        <div class="lesson"><div class="n" style="background:var(--blue)">3</div><div><b>ออกแบบให้ใกล้วิธีทำงานเดิมช่วยลดแรงต้าน</b><span>จัดฟอร์มตามใบตรวจกระดาษที่ช่างคุ้นเคย</span></div></div>
-        <div class="lesson"><div class="n" style="background:var(--teal)">4</div><div><b>ทดสอบอย่างเป็นระบบจับข้อผิดพลาดที่มองไม่เห็น</b><span>เช่น เขตเวลา และความต่างของเบราว์เซอร์</span></div></div>
-        <div class="lesson"><div class="n" style="background:var(--violet)">5</div><div><b>ข้อจำกัดองค์กรคือเงื่อนไขการออกแบบ</b><span>ไม่แก้ CMMS ได้ → ออกแบบให้ส่งออกไฟล์นำเข้าแทน</span></div></div>
-      </div>
-      <div class="rv" style="--d:3">
-        <div class="card sugg">
-          <div class="tabs seg" id="sgSeg"><button class="on" data-s="lim">⚠️ ข้อจำกัด</button><button data-s="org">🏢 หน่วยงาน</button><button data-s="sys">💻 พัฒนาระบบ</button><button data-s="next">🔬 ศึกษาต่อ</button></div>
-          <ul id="sgList"></ul>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= REFERENCES ================= -->
   <section class="slide" id="sRef" data-title="เอกสารอ้างอิง">
     <span class="kicker rv"><i></i>เอกสารอ้างอิง</span>
     <div style="display:flex;justify-content:space-between;align-items:flex-end">
@@ -1205,23 +1182,9 @@ a.weblink:hover{text-decoration:underline;text-decoration-color:var(--blue)}
     </div>
     <div class="card rv" style="--d:3;margin-top:14px;padding:6px 6px"><div class="reflist" id="reflist"></div></div>
   </section>
-  <!-- ================= 20 THANKS ================= -->
-  <section class="slide" id="s20" data-title="ขอบคุณ / Q&A">
-    <div class="orbit" style="width:760px;height:760px"><i style="background:var(--yellow)"></i></div>
-    <div class="orbit" style="width:560px;height:560px;animation-duration:28s;animation-direction:reverse"><i style="background:var(--blue)"></i></div>
-    <div class="orbit" style="width:380px;height:380px;animation-duration:18s"><i style="background:var(--teal)"></i></div>
-    <div style="position:relative">
-      <div class="rv pop" style="font-size:54px">🙏</div>
-      <h1 class="rv" style="--d:1"><span class="hl">ขอบคุณ</span>ค่ะ</h1>
-      <div class="qa rv" style="--d:2">ถาม–ตอบ · Q &amp; A</div>
-      <div class="meta">
-        <a class="card rv" style="--d:3;text-decoration:none;color:inherit" href="https://pmweb.online/" target="_blank" rel="noopener">🌐 <span class="url">pmweb.online</span> ↗</a>
-        <div class="card rv" style="--d:4">👩‍🔧 ศิรภัสสร กลับสุข · 66050779</div>
-        <div class="card rv" style="--d:5">🎓 วิศวกรรมอุตสาหการและการจัดการ ม.ศรีปทุม</div>
-      </div>
-      <div class="rv" style="--d:6;margin-top:28px"><button class="btn orange" id="party">🎉 ฉลองความสำเร็จ</button></div>
-    </div>
-  </section>
+  
+  
+  
 
   <!-- ===== chrome ===== -->
   <canvas id="drawc" width="1280" height="720"></canvas>
@@ -1262,7 +1225,7 @@ const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const stage=$('#stage'); let SC=1;
 function fit(){SC=Math.min(innerWidth/1280,innerHeight/720)*(document.fullscreenElement?1:.96);stage.style.transform=`translate(-50%,-50%) scale(${SC})`}
 addEventListener('resize',fit);fit();
-const KEEP=["s1", "s2", "s4", "sSc", "s6", "sIE", "s9", "s12", "s13", "s14", "s16", "s17", "sBen", "s20"]; const slides=$$('.slide').filter(x=>KEEP.indexOf(x.id)>=0); let cur=0; const hooks={};
+const KEEP=["s1", "sProg", "s2", "s4", "sSc", "s6", "s7", "s12", "sBen", "s9", "sObs", "s16", "sIE", "s18", "s20"]; const slides=$$('.slide').filter(x=>KEEP.indexOf(x.id)>=0); let cur=0; const hooks={};
 function go(n){
   n=Math.max(0,Math.min(slides.length-1,n)); if(n===cur&&slides[n].classList.contains('active'))return;
   slides.forEach((s,i)=>{s.classList.toggle('active',i===n);s.classList.toggle('left',i<n)});
@@ -1641,7 +1604,7 @@ $('#obs').innerHTML=OBSD.map((o,i)=>`<div class="flip rv" style="--d:${3+i}" onc
 
 /* ===== refs + notes ===== */
 const REF={"1": "S. Nakajima, Introduction to TPM: Total Productive Maintenance, Productivity Press, 1988.", "2": "J. D. Campbell และ A. K. S. Jardine, Maintenance Excellence: Optimizing Equipment Life-Cycle Decisions, New York: Marcel Dekker, 2001.", "3": "T. Wireman, Developing Performance Indicators for Managing Maintenance, New York: Industrial Press Inc, 2005.", "4": "J. Moubray, Reliability-Centered Maintenance (RCM II), New York: Industrial Press Inc, 1997.", "5": "F. S. Nowlan และ H. F. Heap, “Reliability-Centered Maintenance,” United Airlines & U.S. Department of Defense, 1978.", "6": "T. Suzuki, TPM in Process Industries, Portland, OR: Productivity Press, 1994.", "7": "International Organization for Standardization, “ISO 55000:2014 Asset management — Overview, principles and terminology,” ISO, Geneva, 2014.", "8": "Society for Maintenance & Reliability Professionals (SMRP), “Guide to Maintenance and Reliability Indicators,” 2020.", "9": "European Committee for Standardization (CEN), EN 15341:2019 Maintenance — Maintenance Key Performance Indicators, Brussels: CEN, 2019.", "10": "J. M. Hiatt, ADKAR: A Model for Change in Business,Government and Our Community, Prosci Learning Center, 2006.", "11": "K. Schwab, The Fourth Industrial Revolution, World Economic Forum, 2016.", "12": "International Organization for Standardization, “ISO 55001:2014 Asset management — Management systems — Requirements,” ISO, Geneva, 2014.", "13": "R. S. Pressman และ D. Lowe, Web Engineering: A Practitioner's Approach, New York: McGraw-Hill, 2009.", "14": "F. D. Davis, “Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology,” MIS Quarterly, vol. 13, no. 3, pp. 319-340, 1989.", "15": "J. Brooke, “SUS: A 'Quick and Dirty' Usability Scale,” in Usability Evaluation in Industry, London: Taylor & Francis, 1996, pp. 189-194.", "16": "A. Bangor, P. T. Kortum และ J. T. Miller, “An Empirical Evaluation of the System Usability Scale,” International Journal of Human–Computer Interaction, vol. 24, no. 6, pp. 574-594, 2008.", "17": "CIGRE Working Group A2.18, “Guide for Life Management Techniques for Power Transformers,” CIGRE, Paris, 2003.", "18": "United Nations, “Transforming our world: the 2030 Agenda for Sustainable Development,” United Nations, New York, 2015.", "19": "คีรีรัตน์ รอดทอง และ ฉัตรชัย เหล่าเขตการณ์, “การปรับปรุงประสิทธิภาพการทำงานของเครื่องวางอุปกรณ์อิเล็กทรอนิกส์ ด้วยแนวทางการบำรุงรักษาทวีผล (TPM),” วารสารวิทยาการจัดการ มหาวิทยาลัยราชภัฏสกลนคร, vol. 6, no. 2, pp. 750-764, 2569.", "20": "พีรพัฒน์ ชาวไทย, อรอุไร หนูหอม และ พิสุทธิ์ รพีศักดิ์, “การจัดตารางบำรุงรักษาระบบจำหน่ายไฟฟ้าแบบใช้ความเชื่อถือได้เป็นศูนย์กลางด้วยวิธีกำหนดการจำนวนเต็มแบบทวิภาค,” วิศวกรรมสาร มก, vol. 30, no. 99, pp. 91-104, 2560.", "21": "M. Wienker, K. Henderson และ J. Volkerts, “The Computerized Maintenance Management System: An Essential Tool for World Class Maintenance,” Procedia Engineering, vol. 138, pp. 413-420, 2016.", "22": "I. P. S. Ahuja และ J. S. Khamba, “Total productive maintenance: literature review and directions,” International Journal of Quality & Reliability Management, vol. 25, no. 7, pp. 709-756, 2008.", "23": "F. T. S. Chan, H. C. W. Lau, R. W. L. Ip, H. K. Chan และ S. Kong, “Implementation of total productive maintenance: A case study,” International Journal of Production Economics, vol. 95, no. 1, pp. 71-94, 2005.", "24": "มะลิวัน ลี และ สัณห์ รัฐวิบูลย์, “การพัฒนาเว็บแอปพลิเคชันสำหรับบริหารจัดการงานบำรุงรักษาระบบวิศวกรรมประกอบอาคาร,” วารสารวิศวกรรมและเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยกาฬสินธุ์, vol. 3, no. 3, pp. 17-35, 2568.", "25": "จักรกฤษณ์ ขันทอง, ขวัญชัย หนาแน่น, พิเชฐ นิลดวงดี และ อนุชา สายสร้อย, “การประยุกต์ใช้ระบบการจัดการเทคโนโลยีสารสนเทศสำหรับการบำรุงรักษาเครื่องจักรกลของสาขาวิชาวิศวกรรมเครื่องกล มหาวิทยาลัยราชภัฏเพชรบุรี,” วารสารวิชาการการประยุกต์ใช้เทคโนโลยีสารสนเทศ, vol. 10, no. 2, pp. 62-78, 2567.", "26": "T. Ketkran และ K. Athikulrat, “การพัฒนาโปรแกรมสำหรับวางแผนซ่อมบำรุงเครื่องจักรในกระบวนการผลิต: กรณีศึกษา โรงงานผลิตกระดาษคราฟท์,” Journal of Engineering and Innovation, vol. 16, no. 2, pp. 11-28, 2566.", "27": "กิตติชัย อธิกุลรัตน์, ลลิดา นาคพรหม และ กฤษดา ม่วงขาว, “การพัฒนาระบบการจัดการซ่อมบำรุงด้วยคอมพิวเตอร์ กรณีศึกษา บริษัทผลิตถุงมือยาง,” 2562.", "28": "I. Lopes, P. Senra, S. Vilarinho, V. Sá, C. Teixeira, J. Lopes, A. Alves, J. A. Oliveira และ M. Figueiredo, “Requirements Specification of a Computerized Maintenance Management System – A Case Study,” Procedia CIRP, vol. 52, pp. 268-273, 2016.", "29": "Z. Abu Bakar และ S. N. Kamaruzzaman, “Facility Manager's Acceptance of CMMS in Malaysia: An Exploratory Study Using PLS-SEM Approach,” Journal of Surveying, Construction and Property, vol. 14, no. 1, pp. 83-93, 2023, doi: 10.22452/jscp.vol14no1.7.", "30": "J. Campos, E. Jantunen, D. Baglee, L. Fumagalli, C. Emmanouilidis และ E. Gilabert, “Mobile information systems in maintenance engineering and asset management,” Socialinių Mokslų Studijos, vol. 8, no. 2, pp. 180-197, 2016.", "31": "V. Venkatesh และ F. D. Davis, “A Theoretical Extension of the Technology Acceptance Model: Four Longitudinal Field Studies,” Management Science, vol. 46, no. 2, pp. 186-204, 2000.", "32": "มหาวิทยาลัยขอนแก่น, “รายงานผลการดำเนินงานตามเป้าหมายการพัฒนาที่ยั่งยืน,” 2565.", "33": "C. Franciosi, B. Iung, S. Miranda และ S. Riemma, “Maintenance for Sustainability in the Industry 4.0 context: a Scoping Literature Review,” IFAC-PapersOnLine, vol. 51, no. 11, pp. 903-908, 2018.", "34": "การไฟฟ้านครหลวง (MEA), “แผนวิสาหกิจการไฟฟ้านครหลวง (ฉบับปรับปรุง) พ.ศ. 2566 - 2570,” 2566.", "35": "J. D. Blischak, E. R. Davenport และ G. Wilson, “A Quick Introduction to Version Control with Git and GitHub,” PLoS Computational Biology, vol. 12, no. 1, pp. e1004668, 2016.", "36": "E. Marcotte, “Responsive Web Design,” A List Apart, no. 306, May 2010. [Online]. Available: https://alistapart.com/article/responsive-web-design/", "37": "S. S. Shapiro และ M. B. Wilk, “An Analysis of Variance Test for Normality (Complete Samples),” Biometrika, vol. 52, no. 3/4, pp. 591-611, 1965.", "38": "Student, “The Probable Error of a Mean,” Biometrika, vol. 6, no. 1, pp. 1-25, 1908.", "39": "F. Wilcoxon, “Individual Comparisons by Ranking Methods,” Biometrics Bulletin, vol. 1, no. 6, pp. 80-83, 1945.", "40": "D. C. Montgomery และ G. C. Runger, Applied Statistics and Probability for Engineers, 7th ed., Hoboken, NJ: Wiley, 2018.", "41": "Microsoft, “T.TEST function,” Microsoft Support. [Online]. Available: https://support.microsoft.com/en-us/excel/t-test-function (accessed Nov. 3, 2026).", "42": "J. W. Best, Research in Education, 3rd ed., Englewood Cliffs, NJ: Prentice-Hall, 1977.", "43": "L. J. Cronbach, “Coefficient Alpha and the Internal Structure of Tests,” Psychometrika, vol. 16, no. 3, pp. 297-334, 1951.", "44": "J. C. Nunnally, Psychometric Theory, 2nd ed., New York: McGraw-Hill, 1978."};
-const NOTES={"s1": "สวัสดีค่ะ ดิฉันนางสาวศิรภัสสร กลับสุข รหัส 66050779 สาขาวิศวกรรมอุตสาหการและการจัดการ วันนี้จะนำเสนอโครงงานสหกิจศึกษาเรื่อง “การพัฒนาเว็บแอปพลิเคชันสำหรับงานบำรุงรักษาเชิงป้องกัน เพื่อสนับสนุนระบบ CMMS กรณีศึกษา การไฟฟ้านครหลวง เขตสมุทรปราการ” โดยมี ผศ.ดร.สุพัฒตรา ศรีญาณลักษณ์ เป็นอาจารย์ที่ปรึกษาค่ะ <em>ชี้ตัวเลขที่ลอยอยู่ด้านขวา</em> นี่คือผลลัพธ์หลักที่จะเล่าให้ฟังในวันนี้ค่ะ", "sAg": "การนำเสนอแบ่งเป็น 5 ส่วนตามเล่มรายงาน เริ่มจากที่มาของปัญหา ทฤษฎีและงานวิจัยที่ใช้ วิธีดำเนินงาน ผลการดำเนินงาน และสรุปผลพร้อมข้อเสนอแนะค่ะ", "s2": "ปัญหาที่พบระหว่างฝึกงานคือ ช่างจดผล PM ลงใบตรวจกระดาษที่หน้างาน แล้วต้องกลับมาคีย์เข้า CMMS ที่สำนักงานอีกรอบ งานเดียวกันจึงถูกบันทึก 2 ครั้ง และมักถูกเลื่อนเมื่อมีงานด่วน ทำให้ข้อมูลไม่ครบและล่าช้า <em>กดสลับเป็น “แบบใหม่”</em> แนวทางของโครงงานคือให้บันทึกเพียงครั้งเดียวที่หน้างาน เวลาบันทึกลดจาก 18.3 เหลือ 7.6 นาทีต่อใบงาน ทั้งนี้ตัวเลขทั้งหมดในการนำเสนอเป็นข้อมูลจำลอง เพราะหน่วยงานไม่อนุญาตให้เผยแพร่ข้อมูลจริงค่ะ ที่มาตัวเลข: เวลา 18.3 และ 7.6 นาทีต่อใบงาน จับเวลาช่าง 10 คนก่อน-หลังใช้ระบบ ส่วนความครบถ้วนและความตรงเวลาดึงจากประวัติใบงานใน CMMS (ข้อมูลจำลอง)", "s3": "เมื่อวิเคราะห์ช่องว่างเทียบกับแนวคิด World Class Maintenance พบปัญหา 3 ด้าน คือ ด้านโครงสร้างพื้นฐานที่ระบบยังแยกส่วน ด้านข้อมูลที่ไม่ครบและไม่ถูกต้อง และด้านบุคลากรที่มองว่าการกรอกข้อมูลเป็นภาระ <em>คลิกพลิกการ์ด</em> ปัญหาด้านโครงสร้างเป็นระดับองค์กรที่โครงงานแก้ไม่ได้ จึงเน้นแก้ด้านข้อมูลและบุคลากรด้วยเครื่องมือเสริมค่ะ", "s4": "วัตถุประสงค์มี 4 ข้อ คือ พัฒนาเว็บแอป วิเคราะห์ปัญหา กำหนดตัวชี้วัดพร้อม Dashboard และประเมินผลก่อน-หลัง โดยตั้งเป้าหมายเชิงตัวเลขไว้ 3 ข้อ คือ ลดเวลาบันทึกอย่างน้อยร้อยละ 30 ข้อมูลครบอย่างน้อยร้อยละ 95 และคะแนน SUS อย่างน้อย 68 คะแนนค่ะ ที่มาเป้าหมาย: ลดเวลาและความครบถ้วนกำหนดร่วมกับพนักงานพี่เลี้ยง ส่วน SUS 68 อิงค่าเฉลี่ยมาตรฐานของ Brooke", "sSc": "ขอบเขตครอบคลุมงาน PM ของหม้อแปลงจำหน่ายและสวิตช์ตัดตอน LBS ใช้ข้อมูลย้อนหลัง 1 ปีเป็นข้อมูลฐาน ระบบเป็นเครื่องมือเสริมที่ไม่แก้ CMMS เดิม แต่ส่งออกไฟล์ Excel เข้าไปแทน ประโยชน์ที่คาดหวังคือ ลดงานเอกสาร ข้อมูลมีคุณภาพ ใช้ KPI ในการประชุม และช่างยอมรับระบบค่ะ", "s5": "กรอบแนวคิดที่ใช้มี 8 เรื่อง แกนหลักคือ World Class Maintenance บนรากฐาน TPM โดยเลือกเสาหลักด้านบุคลากร ร่วมกับ CMMS และตัวชี้วัด 4 ตัว ส่วนการประเมินผลใช้ TAM และ SUS และใช้ ADKAR วางลำดับการนำระบบไปใช้ ซึ่งเชื่อมกับ SDG 8 และ 9 <em>คลิกวงที่กรรมการสนใจเพื่อดูรายละเอียด</em>", "sPmt": "PM มี 4 รูปแบบ กฟน. ใช้แบบตามรอบเวลาอยู่แล้ว และอุปกรณ์ส่วนใหญ่ยังไม่มีเซนเซอร์ โครงงานจึงทำให้การบันทึกตามแผนเดิมมีคุณภาพก่อน ส่วน CBM และ PdM เป็นการต่อยอดในอนาคต ด้านขวาคือเกณฑ์ระดับโลก ที่มีดาวคือเกณฑ์ที่สะท้อนอยู่ในตัวชี้วัดของโครงงานค่ะ", "sRes": "ทบทวนงานวิจัย 15 เรื่องใน 4 กลุ่ม ข้อสรุปร่วมคือ ความสำเร็จของ WCM หรือ CMMS ไม่ได้อยู่ที่ตัวโปรแกรม แต่อยู่ที่คนและคุณภาพข้อมูล งานที่ใกล้โครงงานที่สุดคืองานของมะลิวันและสัณห์ ที่เดิมใช้ LINE และกระดาษ แล้วเปลี่ยนเป็นเว็บแอปขนาดเล็กค่ะ <em>สลับแท็บตามที่ถูกถาม</em>", "sTool": "ทุกเครื่องมือถูกเลือกเพราะเหมาะกับปัญหาและข้อจำกัดของหน่วยงาน ตัวอย่างเช่น เลือกเว็บแอปไฟล์เดียวแทน Native App หรือ Google Forms เพราะไม่ต้องติดตั้ง ไม่มีค่าลิขสิทธิ์ และ Google Forms ผูกฟอร์มกับใบงานหรือเซ็นชื่อบนจอไม่ได้ <em>คลิกแถวอื่นหากกรรมการถามเหตุผล</em>", "s6": "วิธีดำเนินงานมี 6 ขั้นตอน ตั้งแต่วิเคราะห์ปัญหาด้วยแผนผังก้างปลา รวบรวมข้อมูลและจับเวลา ออกแบบโครงสร้างข้อมูลและ KPI ออกแบบ UI ร่วมกับพี่เลี้ยง พัฒนาแบบเป็นรอบ และทดสอบประเมินผลค่ะ <em>กด “เล่นอัตโนมัติ” ได้</em>", "sDes": "การออกแบบเริ่มจากวิธีทำงานจริง เปลี่ยนจากบันทึก 2 ครั้งเป็นครั้งเดียว แปลงใบตรวจกระดาษเป็นฟอร์มดิจิทัล 11 แบบโดยคงลำดับเดิมที่ช่างคุ้นเคย Context Diagram แสดงผู้เกี่ยวข้อง 4 กลุ่ม โดยมี Google Sheets เป็นแหล่งข้อมูลกลางค่ะ", "s7": "ระบบพัฒนา 4 รอบ รอบแรกเป็น Dashboard แต่ตัวเลขไม่สะท้อนงานจริง จึงเปลี่ยนมาแก้ที่จุดบันทึก รอบสองผูกใบตรวจกับใบงาน รอบสามทดสอบ 32 กรณี และรอบสี่ทดลองใช้จริง บทเรียนสำคัญคือ ปัญหาส่วนใหญ่มาจากการออกแบบที่ไม่ตรงกับวิธีทำงานของช่างค่ะ <em>คลิกแต่ละรอบ</em>", "s8": "ข้อมูลฐานจากใบงาน 1,254 ใบ พบว่ากรอกครบเพียงร้อยละ 70.6 บันทึกทันวันเพียงร้อยละ 51.8 ใช้เวลาบันทึกเฉลี่ย 18.3 นาที และ KPI ทั้ง 4 ตัวยังไม่ผ่านเป้าหมายค่ะ", "s9": "ระบบอยู่ที่ pmweb.online มี 9 หน้าจอหลัก <em>กดปุ่ม 🌐 เปิดเว็บจริง เพื่อเข้าเว็บในแท็บใหม่ แล้วกลับมาที่แท็บสไลด์เมื่อสาธิตเสร็จ</em> ตั้งแต่เข้าสู่ระบบ หน้าหลัก ปฏิทิน ใบงาน นำทาง ใบตรวจ 11 แบบ Inspection Dashboard ต้นทุน และคู่มือ <em>กด “สไลด์โชว์” หรือคลิกภาพเพื่อขยาย</em>", "sRole": "การใช้งานแบ่งตามบทบาท หัวหน้างานใช้คอมพิวเตอร์นำเข้าแผน มอบหมายงาน ติดตาม KPI และส่งออก Excel ส่วนช่างใช้มือถือดูเส้นทาง ตรวจ และปิดใบงานที่หน้างาน <em>กด “เล่นลำดับงาน”</em>", "s10": "ขอสาธิตการปิดใบงานบนมือถือค่ะ ระบบเติมรหัสอุปกรณ์และสถานที่ให้แล้ว ช่างกรอกเฉพาะผลตรวจ <em>กด “ปกติทั้งหมด” → เซ็นชื่อ → บันทึก</em> สถานะจะเปลี่ยนเป็นเสร็จสิ้นและ PM Completion อัปเดตทันที", "s11": "ทดสอบระบบตามกรณีทดสอบ 32 กรณี รอบแรกผ่าน 28 กรณี พบข้อบกพร่อง 4 เรื่อง คือ ลายมือชื่อบน iOS เขตเวลา รูปแบบวันที่ใน Excel และข้อมูลชนกัน หลังแก้ไขผ่านครบร้อยละ 100 ค่ะ <em>กด “หลังแก้ไข”</em>", "sSim": "ตัวอย่างใบงาน PM-0093 ตั้งแต่นำเข้าแผนวันที่ 1 ก.ย. จนส่งออกเข้า CMMS ช่างใช้เวลาบันทึกเพียง 7 นาที ผลรวม 4 สัปดาห์ PM Completion ร้อยละ 93.9 Overdue ร้อยละ 6.1 MTTR 3.7 ชั่วโมง และขัดข้อง 4 ครั้ง ซึ่งคำนวณซ้ำใน Excel ได้ตรงกันค่ะ", "s12": "ทดลองใช้กับช่าง 8 คนและหัวหน้างาน 2 คนเป็นเวลา 4 สัปดาห์ เวลาบันทึกลดลงร้อยละ 58.7 ข้อมูลครบเพิ่มเป็นร้อยละ 97.1 ทุกตัวชี้วัดดีขึ้นอย่างมีนัยสำคัญ p น้อยกว่า 0.001 ทดสอบด้วย Paired t-test เพราะข้อมูลแจกแจงปกติ <em>แท็บ “วิธีคำนวณ” ใช้เมื่อถูกถามเรื่องสถิติ</em> ที่มาตัวเลข: ร้อยละที่ลดลงคำนวณจากค่าเฉลี่ยก่อนปัดเศษ (18.33 − 7.57) ÷ 18.33 × 100 = 58.7 ตามสมการ 4.4 (ข้อมูลจำลอง)", "s13": "ช่วงทดลองใช้ KPI ทั้ง 4 ตัวผ่านเป้าหมาย แต่ MTTR และ Failure Frequency ขึ้นกับปัจจัยภายนอก เช่น สภาพอากาศ จึงต้องติดตามต่ออีก 6–12 เดือนก่อนสรุปค่ะ <em>สลับปุ่มเพื่อเทียบก่อน-หลัง</em> ที่มาตัวเลข: เทียบค่าเฉลี่ย 12 เดือนก่อนใช้ระบบกับช่วงทดลองใช้ 4 สัปดาห์ KPI คำนวณตามนิยามของ Wireman และ SMRP (ข้อมูลจำลอง)", "s14": "คะแนน SUS เฉลี่ย 80.25 อยู่ในระดับ “ดี” ตามเกณฑ์ Bangor และทุกคนผ่านเกณฑ์ 68 <em>ใช้เครื่องคิดเลขด้านขวาสาธิตวิธีคิด เช่น ตัวอย่าง P01 ได้ 80 คะแนน</em> ที่มาตัวเลข: คะแนน SUS รายบุคคลคำนวณตามวิธีของ Brooke แล้วเฉลี่ยได้ 80.25 (ข้อมูลจำลอง)", "s15": "การยอมรับตามกรอบ TAM อยู่ในระดับมากที่สุดทั้ง 3 ด้าน ภาพรวม 4.46 ค่าแอลฟาของครอนบาคทุกด้านเกิน 0.70 แสดงว่าแบบสอบถามเชื่อถือได้ <em>คลิกการ์ดเพื่อดูรายข้อ</em>", "s16": "ผู้ใช้เสนอแนะ 5 เรื่อง ปรับปรุงแล้ว 3 เรื่อง คือ ขยายตัวอักษร แสดงค่าวัดครั้งก่อน และสถานะการซิงก์ อีก 2 เรื่อง คือ KPI รายสายป้อนและการแจ้งเตือน กำลังพัฒนาค่ะ", "sDis": "ผลแต่ละรอบส่งผลต่อเนื่องกัน และสอดคล้องกับ TPM, TAM และงานวิจัยที่เกี่ยวข้อง สิ่งที่งานนี้เพิ่มเติมคือ แสดงว่าเครื่องมือเสริมที่ไม่แก้ระบบเดิมช่วยยกระดับคุณภาพข้อมูลในงานระบบจำหน่ายไฟฟ้าได้ค่ะ", "s17": "สรุปแล้ว โครงงานบรรลุวัตถุประสงค์ทั้ง 4 ข้อ และเป้าหมายตัวเลขครบทั้ง 3 ข้อ คือ เวลาลดลงร้อยละ 58.7 ข้อมูลครบร้อยละ 97.1 และ SUS 80.25 ส่วน MTTR และ Failure Frequency ยังต้องติดตามต่อค่ะ ที่มาตัวเลข: สรุปจากตารางผลเทียบเป้าหมาย ซึ่งรวบรวมค่าจากหน้าก่อนหน้า (ข้อมูลจำลอง)", "sBen": "ประโยชน์ต่อหน่วยงานที่ชัดที่สุดคือ เวลาที่ลดลง 10.8 นาทีต่อใบงาน คูณกับปริมาณงานประมาณ 1,254 ใบต่อปี ได้เวลาแรงงานคืนมาประมาณ 225 ชั่วโมงต่อปี ส่วนตัวดิฉันเองได้ใช้ความรู้ IE จริง และเรียนรู้ว่าการเปลี่ยนวิธีทำงานของคนต้องรับฟังและสอนงานควบคู่ไปด้วยค่ะ ที่มาตัวเลข: ผลต่างเวลาเฉลี่ย 10.76 นาทีต่อใบงาน × 1,254 ใบต่อปี ÷ 60 ≈ 225 ชั่วโมงต่อปี (ข้อมูลจำลอง)", "sObs": "อุปสรรคหลักมี 5 เรื่อง เช่น ข้อมูลเดิมไม่สม่ำเสมอ สัญญาณอินเทอร์เน็ตไม่เสถียร และเชื่อม CMMS โดยตรงไม่ได้ แต่ละข้อมีวิธีรับมือ <em>คลิกพลิกการ์ด</em>", "s18": "บทเรียนสำคัญคือ ต้องวิเคราะห์สาเหตุก่อนเลือกเครื่องมือ และผู้ใช้หน้างานคือผู้ตัดสินความสำเร็จ ข้อจำกัดคือใช้ข้อมูลจำลอง กลุ่มตัวอย่างเพียง 10 คน และทดลองแค่ 4 สัปดาห์ ข้อเสนอแนะคือขยายผลไปทีมอื่น เชื่อม CMMS ผ่าน API และต่อยอดสู่ CBM ค่ะ", "sRef": "เอกสารอ้างอิงทั้งหมด 44 รายการตามเล่ม <em>พิมพ์ค้นหาได้ หากกรรมการถามที่มาของทฤษฎี</em>", "s20": "ขอบคุณคณะกรรมการและอาจารย์ที่ปรึกษา รวมถึงพี่เลี้ยงและทีมงาน กฟน. เขตสมุทรปราการ ที่สนับสนุนโครงงานนี้ค่ะ ยินดีรับคำถามและข้อเสนอแนะค่ะ", "sIE": "ในโครงงานนี้ผู้จัดทำนำความรู้วิศวกรรมอุตสาหการมาใช้หลายด้าน ตั้งแต่วิเคราะห์ปัญหาด้วยแผนผังก้างปลา ศึกษาเวลาการบันทึกงานด้วยการจับเวลา กำหนดตัวชี้วัด KPI ตามแนวทางสากล จนถึงทดสอบสถิติด้วย Paired t-test ผลคือเวลาบันทึกลดลงเฉลี่ย 10.76 นาทีต่อใบงาน และคะแนน SUS อยู่ที่ 80.25 <em>ที่มาตัวเลข: ค่าเฉลี่ยจากการจับเวลาช่าง 10 คนก่อน-หลังใช้ระบบ คำนวณผลต่างและ t ใน Excel (ข้อมูลจำลอง)</em>"};
+const NOTES={"s1": "สวัสดีค่ะ ดิฉันนางสาวศิรภัสสร กลับสุข รหัส 66050779 สาขาวิศวกรรมอุตสาหการและการจัดการ วันนี้จะนำเสนอโครงงานสหกิจศึกษาเรื่อง “การพัฒนาเว็บแอปพลิเคชันสำหรับงานบำรุงรักษาเชิงป้องกัน เพื่อสนับสนุนระบบ CMMS กรณีศึกษา การไฟฟ้านครหลวง เขตสมุทรปราการ” โดยมี ผศ.ดร.สุพัฒตรา ศรีญาณลักษณ์ เป็นอาจารย์ที่ปรึกษาค่ะ <em>ชี้ตัวเลขที่ลอยอยู่ด้านขวา</em> นี่คือผลลัพธ์หลักที่จะเล่าให้ฟังในวันนี้ค่ะ", "sAg": "การนำเสนอแบ่งเป็น 5 ส่วนตามเล่มรายงาน เริ่มจากที่มาของปัญหา ทฤษฎีและงานวิจัยที่ใช้ วิธีดำเนินงาน ผลการดำเนินงาน และสรุปผลพร้อมข้อเสนอแนะค่ะ", "s2": "ปัญหาที่พบระหว่างฝึกงานคือ ช่างจดผล PM ลงใบตรวจกระดาษที่หน้างาน แล้วต้องกลับมาคีย์เข้า CMMS ที่สำนักงานอีกรอบ งานเดียวกันจึงถูกบันทึก 2 ครั้ง และมักถูกเลื่อนเมื่อมีงานด่วน ทำให้ข้อมูลไม่ครบและล่าช้า <em>กดสลับเป็น “แบบใหม่”</em> แนวทางของโครงงานคือให้บันทึกเพียงครั้งเดียวที่หน้างาน เวลาบันทึกลดจาก 18.3 เหลือ 7.6 นาทีต่อใบงาน ทั้งนี้ตัวเลขทั้งหมดในการนำเสนอเป็นข้อมูลจำลอง เพราะหน่วยงานไม่อนุญาตให้เผยแพร่ข้อมูลจริงค่ะ ที่มาตัวเลข: เวลา 18.3 และ 7.6 นาทีต่อใบงาน จับเวลาช่าง 10 คนก่อน-หลังใช้ระบบ ส่วนความครบถ้วนและความตรงเวลาดึงจากประวัติใบงานใน CMMS (ข้อมูลจำลอง)", "s3": "เมื่อวิเคราะห์ช่องว่างเทียบกับแนวคิด World Class Maintenance พบปัญหา 3 ด้าน คือ ด้านโครงสร้างพื้นฐานที่ระบบยังแยกส่วน ด้านข้อมูลที่ไม่ครบและไม่ถูกต้อง และด้านบุคลากรที่มองว่าการกรอกข้อมูลเป็นภาระ <em>คลิกพลิกการ์ด</em> ปัญหาด้านโครงสร้างเป็นระดับองค์กรที่โครงงานแก้ไม่ได้ จึงเน้นแก้ด้านข้อมูลและบุคลากรด้วยเครื่องมือเสริมค่ะ", "s4": "วัตถุประสงค์มี 4 ข้อ คือ พัฒนาเว็บแอป วิเคราะห์ปัญหา กำหนดตัวชี้วัดพร้อม Dashboard และประเมินผลก่อน-หลัง โดยตั้งเป้าหมายเชิงตัวเลขไว้ 3 ข้อ คือ ลดเวลาบันทึกอย่างน้อยร้อยละ 30 ข้อมูลครบอย่างน้อยร้อยละ 95 และคะแนน SUS อย่างน้อย 68 คะแนนค่ะ ที่มาเป้าหมาย: ลดเวลาและความครบถ้วนกำหนดร่วมกับพนักงานพี่เลี้ยง ส่วน SUS 68 อิงค่าเฉลี่ยมาตรฐานของ Brooke", "sSc": "ขอบเขตครอบคลุมงาน PM ของหม้อแปลงจำหน่ายและสวิตช์ตัดตอน LBS ใช้ข้อมูลย้อนหลัง 1 ปีเป็นข้อมูลฐาน ระบบเป็นเครื่องมือเสริมที่ไม่แก้ CMMS เดิม แต่ส่งออกไฟล์ Excel เข้าไปแทน ประโยชน์ที่คาดหวังคือ ลดงานเอกสาร ข้อมูลมีคุณภาพ ใช้ KPI ในการประชุม และช่างยอมรับระบบค่ะ", "s5": "กรอบแนวคิดที่ใช้มี 8 เรื่อง แกนหลักคือ World Class Maintenance บนรากฐาน TPM โดยเลือกเสาหลักด้านบุคลากร ร่วมกับ CMMS และตัวชี้วัด 4 ตัว ส่วนการประเมินผลใช้ TAM และ SUS และใช้ ADKAR วางลำดับการนำระบบไปใช้ ซึ่งเชื่อมกับ SDG 8 และ 9 <em>คลิกวงที่กรรมการสนใจเพื่อดูรายละเอียด</em>", "sPmt": "PM มี 4 รูปแบบ กฟน. ใช้แบบตามรอบเวลาอยู่แล้ว และอุปกรณ์ส่วนใหญ่ยังไม่มีเซนเซอร์ โครงงานจึงทำให้การบันทึกตามแผนเดิมมีคุณภาพก่อน ส่วน CBM และ PdM เป็นการต่อยอดในอนาคต ด้านขวาคือเกณฑ์ระดับโลก ที่มีดาวคือเกณฑ์ที่สะท้อนอยู่ในตัวชี้วัดของโครงงานค่ะ", "sRes": "ทบทวนงานวิจัย 15 เรื่องใน 4 กลุ่ม ข้อสรุปร่วมคือ ความสำเร็จของ WCM หรือ CMMS ไม่ได้อยู่ที่ตัวโปรแกรม แต่อยู่ที่คนและคุณภาพข้อมูล งานที่ใกล้โครงงานที่สุดคืองานของมะลิวันและสัณห์ ที่เดิมใช้ LINE และกระดาษ แล้วเปลี่ยนเป็นเว็บแอปขนาดเล็กค่ะ <em>สลับแท็บตามที่ถูกถาม</em>", "sTool": "ทุกเครื่องมือถูกเลือกเพราะเหมาะกับปัญหาและข้อจำกัดของหน่วยงาน ตัวอย่างเช่น เลือกเว็บแอปไฟล์เดียวแทน Native App หรือ Google Forms เพราะไม่ต้องติดตั้ง ไม่มีค่าลิขสิทธิ์ และ Google Forms ผูกฟอร์มกับใบงานหรือเซ็นชื่อบนจอไม่ได้ <em>คลิกแถวอื่นหากกรรมการถามเหตุผล</em>", "s6": "วิธีดำเนินงานมี 6 ขั้นตอน ตั้งแต่วิเคราะห์ปัญหาด้วยแผนผังก้างปลา รวบรวมข้อมูลและจับเวลา ออกแบบโครงสร้างข้อมูลและ KPI ออกแบบ UI ร่วมกับพี่เลี้ยง พัฒนาแบบเป็นรอบ และทดสอบประเมินผลค่ะ <em>กด “เล่นอัตโนมัติ” ได้</em>", "sDes": "การออกแบบเริ่มจากวิธีทำงานจริง เปลี่ยนจากบันทึก 2 ครั้งเป็นครั้งเดียว แปลงใบตรวจกระดาษเป็นฟอร์มดิจิทัล 11 แบบโดยคงลำดับเดิมที่ช่างคุ้นเคย Context Diagram แสดงผู้เกี่ยวข้อง 4 กลุ่ม โดยมี Google Sheets เป็นแหล่งข้อมูลกลางค่ะ", "s7": "ระบบพัฒนา 4 รอบ รอบแรกเป็น Dashboard แต่ตัวเลขไม่สะท้อนงานจริง จึงเปลี่ยนมาแก้ที่จุดบันทึก รอบสองผูกใบตรวจกับใบงาน รอบสามทดสอบ 32 กรณี และรอบสี่ทดลองใช้จริง บทเรียนสำคัญคือ ปัญหาส่วนใหญ่มาจากการออกแบบที่ไม่ตรงกับวิธีทำงานของช่างค่ะ <em>คลิกแต่ละรอบ</em>", "s8": "ข้อมูลฐานจากใบงาน 1,254 ใบ พบว่ากรอกครบเพียงร้อยละ 70.6 บันทึกทันวันเพียงร้อยละ 51.8 ใช้เวลาบันทึกเฉลี่ย 18.3 นาที และ KPI ทั้ง 4 ตัวยังไม่ผ่านเป้าหมายค่ะ", "s9": "ระบบอยู่ที่ pmweb.online มี 9 หน้าจอหลัก <em>กดปุ่ม 🌐 เปิดเว็บจริง เพื่อเข้าเว็บในแท็บใหม่ แล้วกลับมาที่แท็บสไลด์เมื่อสาธิตเสร็จ</em> ตั้งแต่เข้าสู่ระบบ หน้าหลัก ปฏิทิน ใบงาน นำทาง ใบตรวจ 11 แบบ Inspection Dashboard ต้นทุน และคู่มือ <em>กด “สไลด์โชว์” หรือคลิกภาพเพื่อขยาย</em>", "sRole": "การใช้งานแบ่งตามบทบาท หัวหน้างานใช้คอมพิวเตอร์นำเข้าแผน มอบหมายงาน ติดตาม KPI และส่งออก Excel ส่วนช่างใช้มือถือดูเส้นทาง ตรวจ และปิดใบงานที่หน้างาน <em>กด “เล่นลำดับงาน”</em>", "s10": "ขอสาธิตการปิดใบงานบนมือถือค่ะ ระบบเติมรหัสอุปกรณ์และสถานที่ให้แล้ว ช่างกรอกเฉพาะผลตรวจ <em>กด “ปกติทั้งหมด” → เซ็นชื่อ → บันทึก</em> สถานะจะเปลี่ยนเป็นเสร็จสิ้นและ PM Completion อัปเดตทันที", "s11": "ทดสอบระบบตามกรณีทดสอบ 32 กรณี รอบแรกผ่าน 28 กรณี พบข้อบกพร่อง 4 เรื่อง คือ ลายมือชื่อบน iOS เขตเวลา รูปแบบวันที่ใน Excel และข้อมูลชนกัน หลังแก้ไขผ่านครบร้อยละ 100 ค่ะ <em>กด “หลังแก้ไข”</em>", "sSim": "ตัวอย่างใบงาน PM-0093 ตั้งแต่นำเข้าแผนวันที่ 1 ก.ย. จนส่งออกเข้า CMMS ช่างใช้เวลาบันทึกเพียง 7 นาที ผลรวม 4 สัปดาห์ PM Completion ร้อยละ 93.9 Overdue ร้อยละ 6.1 MTTR 3.7 ชั่วโมง และขัดข้อง 4 ครั้ง ซึ่งคำนวณซ้ำใน Excel ได้ตรงกันค่ะ", "s12": "ทดลองใช้กับช่าง 8 คนและหัวหน้างาน 2 คนเป็นเวลา 4 สัปดาห์ เวลาบันทึกลดลงร้อยละ 58.7 ข้อมูลครบเพิ่มเป็นร้อยละ 97.1 ทุกตัวชี้วัดดีขึ้นอย่างมีนัยสำคัญ p น้อยกว่า 0.001 ทดสอบด้วย Paired t-test เพราะข้อมูลแจกแจงปกติ <em>แท็บ “วิธีคำนวณ” ใช้เมื่อถูกถามเรื่องสถิติ</em> ที่มาตัวเลข: ร้อยละที่ลดลงคำนวณจากค่าเฉลี่ยก่อนปัดเศษ (18.33 − 7.57) ÷ 18.33 × 100 = 58.7 ตามสมการ 4.4 (ข้อมูลจำลอง)", "s13": "ช่วงทดลองใช้ KPI ทั้ง 4 ตัวผ่านเป้าหมาย แต่ MTTR และ Failure Frequency ขึ้นกับปัจจัยภายนอก เช่น สภาพอากาศ จึงต้องติดตามต่ออีก 6–12 เดือนก่อนสรุปค่ะ <em>สลับปุ่มเพื่อเทียบก่อน-หลัง</em> ที่มาตัวเลข: เทียบค่าเฉลี่ย 12 เดือนก่อนใช้ระบบกับช่วงทดลองใช้ 4 สัปดาห์ KPI คำนวณตามนิยามของ Wireman และ SMRP (ข้อมูลจำลอง)", "s14": "คะแนน SUS เฉลี่ย 80.25 อยู่ในระดับ “ดี” ตามเกณฑ์ Bangor และทุกคนผ่านเกณฑ์ 68 <em>ใช้เครื่องคิดเลขด้านขวาสาธิตวิธีคิด เช่น ตัวอย่าง P01 ได้ 80 คะแนน</em> ที่มาตัวเลข: คะแนน SUS รายบุคคลคำนวณตามวิธีของ Brooke แล้วเฉลี่ยได้ 80.25 (ข้อมูลจำลอง)", "s15": "การยอมรับตามกรอบ TAM อยู่ในระดับมากที่สุดทั้ง 3 ด้าน ภาพรวม 4.46 ค่าแอลฟาของครอนบาคทุกด้านเกิน 0.70 แสดงว่าแบบสอบถามเชื่อถือได้ <em>คลิกการ์ดเพื่อดูรายข้อ</em>", "s16": "ผู้ใช้เสนอแนะ 5 เรื่อง ปรับปรุงแล้ว 3 เรื่อง คือ ขยายตัวอักษร แสดงค่าวัดครั้งก่อน และสถานะการซิงก์ อีก 2 เรื่อง คือ KPI รายสายป้อนและการแจ้งเตือน กำลังพัฒนาค่ะ", "sDis": "ผลแต่ละรอบส่งผลต่อเนื่องกัน และสอดคล้องกับ TPM, TAM และงานวิจัยที่เกี่ยวข้อง สิ่งที่งานนี้เพิ่มเติมคือ แสดงว่าเครื่องมือเสริมที่ไม่แก้ระบบเดิมช่วยยกระดับคุณภาพข้อมูลในงานระบบจำหน่ายไฟฟ้าได้ค่ะ", "s17": "สรุปแล้ว โครงงานบรรลุวัตถุประสงค์ทั้ง 4 ข้อ และเป้าหมายตัวเลขครบทั้ง 3 ข้อ คือ เวลาลดลงร้อยละ 58.7 ข้อมูลครบร้อยละ 97.1 และ SUS 80.25 ส่วน MTTR และ Failure Frequency ยังต้องติดตามต่อค่ะ ที่มาตัวเลข: สรุปจากตารางผลเทียบเป้าหมาย ซึ่งรวบรวมค่าจากหน้าก่อนหน้า (ข้อมูลจำลอง)", "sBen": "ประโยชน์ต่อหน่วยงานที่ชัดที่สุดคือ เวลาที่ลดลง 10.8 นาทีต่อใบงาน คูณกับปริมาณงานประมาณ 1,254 ใบต่อปี ได้เวลาแรงงานคืนมาประมาณ 225 ชั่วโมงต่อปี ส่วนตัวดิฉันเองได้ใช้ความรู้ IE จริง และเรียนรู้ว่าการเปลี่ยนวิธีทำงานของคนต้องรับฟังและสอนงานควบคู่ไปด้วยค่ะ ที่มาตัวเลข: ผลต่างเวลาเฉลี่ย 10.76 นาทีต่อใบงาน × 1,254 ใบต่อปี ÷ 60 ≈ 225 ชั่วโมงต่อปี (ข้อมูลจำลอง)", "sObs": "อุปสรรคหลักมี 5 เรื่อง เช่น ข้อมูลเดิมไม่สม่ำเสมอ สัญญาณอินเทอร์เน็ตไม่เสถียร และเชื่อม CMMS โดยตรงไม่ได้ แต่ละข้อมีวิธีรับมือ <em>คลิกพลิกการ์ด</em>", "s18": "บทเรียนสำคัญคือ ต้องวิเคราะห์สาเหตุก่อนเลือกเครื่องมือ และผู้ใช้หน้างานคือผู้ตัดสินความสำเร็จ ข้อจำกัดคือใช้ข้อมูลจำลอง กลุ่มตัวอย่างเพียง 10 คน และทดลองแค่ 4 สัปดาห์ ข้อเสนอแนะคือขยายผลไปทีมอื่น เชื่อม CMMS ผ่าน API และต่อยอดสู่ CBM ค่ะ", "sRef": "เอกสารอ้างอิงทั้งหมด 44 รายการตามเล่ม <em>พิมพ์ค้นหาได้ หากกรรมการถามที่มาของทฤษฎี</em>", "s20": "ขอบคุณคณะกรรมการและอาจารย์ที่ปรึกษา รวมถึงพี่เลี้ยงและทีมงาน กฟน. เขตสมุทรปราการ ที่สนับสนุนโครงงานนี้ค่ะ ยินดีรับคำถามและข้อเสนอแนะค่ะ", "sIE": "ในโครงงานนี้ผู้จัดทำนำความรู้วิศวกรรมอุตสาหการมาใช้หลายด้าน ตั้งแต่วิเคราะห์ปัญหาด้วยแผนผังก้างปลา ศึกษาเวลาการบันทึกงานด้วยการจับเวลา กำหนดตัวชี้วัด KPI ตามแนวทางสากล จนถึงทดสอบสถิติด้วย Paired t-test ผลคือเวลาบันทึกลดลงเฉลี่ย 10.76 นาทีต่อใบงาน และคะแนน SUS อยู่ที่ 80.25 <em>ที่มาตัวเลข: ค่าเฉลี่ยจากการจับเวลาช่าง 10 คนก่อน-หลังใช้ระบบ คำนวณผลต่างและ t ใน Excel (ข้อมูลจำลอง)</em>", "sProg": "ตอนนี้โครงงานทำเสร็จครบทั้ง 4 วัตถุประสงค์แล้วค่ะ ระบบใช้งานได้จริงที่ pmweb.online ผลประเมินก่อน-หลังเป็นข้อมูลจำลองตามที่ กฟน. กำหนด ส่วนที่ยังต้องติดตามคือ MTTR และ Failure Frequency ซึ่งต้องดูผลต่อ 6–12 เดือน ที่เหลือก่อนสอบคือปรับชื่อ ตรวจตัวเลขจำลองและอ้างอิงให้สม่ำเสมอ ทดสอบเว็บจริง และซ้อมนำเสนอ <em>ขอคำแนะนำจากอาจารย์เรื่องลำดับงานที่เหลือค่ะ</em>"};
 function linkRefs(root){const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>/\[\d+\]/.test(n.nodeValue)&&!n.parentNode.closest('script,style,sup.rf,.reflist,#notes')?1:3});const ns=[];while(w.nextNode())ns.push(w.currentNode);
   ns.forEach(n=>{const span=document.createElement('span');span.innerHTML=n.nodeValue.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\[(\d+)\]/g,(m,d)=>REF[d]?`<sup class="rf" data-r="${d}">[${d}]</sup>`:m);n.replaceWith(...span.childNodes)})}
 document.addEventListener('mouseover',e=>{const r=e.target.closest('sup.rf');if(!r)return;tip.classList.add('wide');showTip(e,`<b>[${r.dataset.r}]</b> ${REF[r.dataset.r]}`)});
